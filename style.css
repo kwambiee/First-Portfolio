@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+body {
+  max-width: 375px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.header {
+  background-color: #fff;
+  margin: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bars {
+  list-style: none;
+  color: #acb7c3;
+}
+
+.logo {
+  margin-left: 0;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-container {
+  background-image: url("./background-shapes.png");
+  background-color: #fff;
+}
+
+.flex-name {
+  color: #172b4d;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0 24px;
+  padding-top: 60px;
+  padding-bottom: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.flex-skills {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  margin: 24px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+
+.flex-connect {
+  margin-left: 24px;
+}
+
+.flex-connect p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  margin-bottom: 5px;
+}
+
+.linkedin img {
+  width: 30px;
+  max-height: 100%;
+}
+
+.footer img {
+  width: 20px;
+  max-height: 50%;
+}
+
+.footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding-left: 5px;
+  padding-right: 5px;
+  align-items: center;
+  max-width: 50%;
+  margin-top: 0;
+}
+
+.footer {
+  margin-left: 10px;
+}
