@@ -7,6 +7,10 @@ body {
   margin: 0;
 }
 
+main {
+  background: #f7f7f9;
+  margin: 0;
+}
 .header {
   background-color: #fff;
   margin: 24px;
@@ -34,6 +38,10 @@ a {
 .main-container {
   background-image: url("./background-shapes.png");
   background-color: #fff;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 50px;
+  margin-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 .flex-name {
@@ -99,4 +107,195 @@ p {
 
 .footer {
   margin-left: 10px;
+}
+
+.grid-container {
+  margin: 16px;
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 100px;
+  background: #f7f7f9;
+}
+
+.template-wrapper {
+  margin: 16px;
+  border: 1px solid #f7f7f9;
+  border-radius: 10px;
+  background: white;
+  padding-bottom: 20px;
+}
+.wrapping {
+  margin: 10px;
+}
+.image-item {
+  margin-top: 10px;
+}
+
+.Tonic h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #172b4d;
+  margin-bottom: 5px;
+}
+.Tonic-list ul {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+  margin-top: 3px;
+}
+.canopy {
+  list-style: none;
+  font-weight: 600;
+  font-size: 13px;
+  color: #344563;
+}
+.Tonic-list li {
+  margin: 0;
+  padding-right: 25px;
+  padding-top: 5px;
+}
+.canopy-list {
+  font-size: 13px;
+  font-weight: 600;
+  color: #7a869a;
+}
+.Tonic-content p {
+  font-weight: 400;
+  color: #344563;
+}
+.Tonic-link ul {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 0;
+  margin-top: 3px;
+}
+.Tonic-link li {
+  list-style: none;
+  padding-right: 10px;
+}
+.Tonic-link button {
+  border: none;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6070ff;
+  border-radius: 10px;
+}
+.Tonic-project {
+  background: white;
+  border: 1px solid blue;
+  padding: 10px 15px;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6070ff;
+  border-radius: 10px;
+}
+.wrap-footer {
+  background: white;
+}
+.about-me {
+  margin-left: 24px;
+  margin-top: 114px;
+}
+.about-me h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #172b4d;
+  text-align: left;
+}
+.about-me p {
+  text-align: left;
+  color: #344563;
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.resume {
+  margin: 24px;
+}
+.resume1 {
+  padding: 15px 20px;
+  font-weight: 600;
+  font-size: 17px;
+  color: #396df2;
+}
+.language {
+  margin-right: 30px;
+}
+.language ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.language li {
+  list-style: none;
+  font-weight: 500;
+  color: black;
+}
+.language p {
+  font-size: 25px;
+  color: black;
+}
+.arrow-down {
+  padding-top: 20px;
+  color: black;
+}
+.lang {
+  display: flex;
+  margin: 20px 24px;
+  background: #f7f7f9;
+  border-radius: 5px;
+}
+.lang img {
+  padding-top: 10px;
+  margin-left: 5px;
+  /* font-size: 15px;
+  /* font-size: 15px;
+  font-weight: 500; */
+}
+.lang span {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 30px;
+  padding-left: 5px;
+}
+.Frameworks1 {
+  margin-right: 30px;
+}
+.Frameworks1 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0;
+}
+.Frameworks1 li {
+  list-style: none;
+}
+.Frameworks1 p {
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
+}
+.divider {
+  border: 1px solid #dfe1e6;
+  margin: 0 30px;
+}
+.Skills {
+  margin-right: 30px;
+}
+.Skills ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0;
+}
+.Skills li {
+  list-style: none;
+}
+.Skills p {
+  font-size: 24px;
+  color: black;
+  font-weight: 500;
 }
