@@ -1,34 +1,43 @@
-# Creating my first Portfolio Website
+# First Portfolio Website
 
-# Skills
+# Built with
 
 1. HTML
-2. CSS
+2. CSS-Flexbox
 3. Gitlab
 4. Github
+5. VsCode editor
 
-# Instructions
+# Getting started
 
-To set up my portfolio;
+To set up the portfolio;
 
-- I created a new repository and opened a new branch.
-- I set up linters to the branch to ensure no syntax or styling errors.
-- I selected a template from figma that I would use to build my portfolio.
+- Create a new repository and open a new branch.
+- set up linters to the branch to ensure no syntax or styling errors.
+- select a template from figma that you would use to build the portfolio.
 - I used one of the templates from figma. its named " figma-template" and it is uploaded to my repository.
-- I used HTML for markup and CSS for styling.
+- Use HTML for markup and CSS for styling.
 
 I have built two sections
 
 - Nav
 - Main
 
-# Tools
+# Setup and Run tests
 
-Vscode
-Git
-Github
+To set up linters: Follow https://github.com/microverseinc/linters-config/tree/master/html-css
+Once configured, run test as provided in the set up
 
 # Author
 
 Github: https://www.github.com/kwambiee
 LinkeddIn: https://www.linkedin.com/in/joy-kwamboka
+
+# Contributing
+
+Contributions, issues and features are welcome!
+
+# Acknowledgements
+
+- Hat a tip to anyone whose code was used
+- Microverse
