@@ -1,0 +1,14 @@
+body {
+  background-image: url("./background-shapes.png");
+  background-color: #fff;
+  max-width: 375px;
+  display: flex;
+}
+.nav-container {
+  border: 10px solid blue;
+  width: 100%;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+}
