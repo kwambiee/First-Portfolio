@@ -4,10 +4,12 @@ body {
   max-width: 375px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 .nav-container {
   border: 10px solid blue;
   background-color: #fff;
+  margin: 24px;
 }
 .nav-links {
   display: flex;
@@ -24,6 +26,25 @@ body {
   font-weight: 700;
   border: 3px solid black;
   text-align: left;
-  margin: 5px;
+  margin: 24px;
   padding: 5px;
+}
+.flex-skills {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+  margin: 24px;
+}
+p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #344563;
+}
+.flex-connect {
+  margin: 24px;
+}
+.flex-connect p {
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
 }
