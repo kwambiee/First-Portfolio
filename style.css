@@ -6,32 +6,39 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
 }
+
 .nav-container {
   background-color: #fff;
   margin: 24px;
 }
+
 .nav-links {
   display: flex;
   justify-content: space-between;
   list-style: none;
   padding-left: 0;
 }
+
 .logo {
   margin-left: 0;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
 }
+
 a {
   text-decoration: none;
 }
+
 .bars {
   color: #acb7c3;
 }
+
 .main-container {
   background-image: url("./background-shapes.png");
   background-color: #fff;
 }
+
 .flex-name {
   color: #172b4d;
   font-size: 20px;
@@ -40,34 +47,41 @@ a {
   margin: 0 24px;
   padding: 0;
 }
+
 .flex-skills {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
   margin: 24px;
 }
+
 p {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
 }
+
 .flex-connect {
   margin-left: 24px;
 }
+
 .flex-connect p {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
   margin-bottom: 5px;
 }
+
 .linkedin img {
   width: 30px;
   max-height: 100%;
 }
+
 .footer img {
   width: 20px;
   max-height: 50%;
 }
+
 .footer ul {
   display: flex;
   list-style: none;
@@ -78,6 +92,7 @@ p {
   max-width: 50%;
   margin-top: 0;
 }
+
 .footer {
   margin-left: 10px;
 }
