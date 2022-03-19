@@ -184,19 +184,33 @@ p {
   padding-right: 10px;
 }
 
-.Tonic-link button {
+.button-type {
   border: none;
   padding: 10px 15px;
   font-weight: 700;
   font-size: 14px;
   color: #6070ff;
   border-radius: 10px;
+  background: #fff;
+  border: 1px solid #7f8cff;
 }
 
 button:hover {
+  background-color: #6070ff;
+  color: #fff;
   text-decoration: underline;
 }
-
+button:active {
+  background-color: #2230d2;
+  color: #fff;
+}
+.disable {
+  border: 1px solid #5e6c84;
+  background-color: #fff;
+  color: #5e6c84;
+  pointer-events: none;
+  cursor: not-allowed;
+}
 .Tonic-project {
   background: white;
   border: 1px solid blue;
