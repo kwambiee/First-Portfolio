@@ -192,6 +192,7 @@ p {
   color: #6070ff;
   border-radius: 10px;
 }
+
 button:hover {
   text-decoration: underline;
 }
@@ -283,6 +284,7 @@ button:hover {
   margin-left: 5px;
   padding-left: 3px;
 }
+
 .lang2 li {
   list-style: none;
   padding-right: 10px;
