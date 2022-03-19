@@ -78,7 +78,7 @@ p {
   margin-left: 24px;
 }
 
-.flex-connect p {
+.flex-connect h3 {
   font-weight: 500;
   font-size: 16px;
   color: #7f8cff;
@@ -192,6 +192,9 @@ p {
   color: #6070ff;
   border-radius: 10px;
 }
+button:hover {
+  text-decoration: underline;
+}
 
 .Tonic-project {
   background: white;
@@ -205,6 +208,8 @@ p {
 
 .wrap-footer {
   background: white;
+  margin: 16px;
+  border-top-right-radius: 50px;
 }
 
 .about-me {
@@ -265,27 +270,24 @@ p {
   color: black;
 }
 
-.lang {
-  display: flex;
-  margin: 20px 24px;
+.lang2 {
+  margin: 20px;
   background: #f7f7f9;
   border-radius: 5px;
 }
 
-.lang img {
-  padding-top: 10px;
+.lang2 ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   margin-left: 5px;
-
-  /* font-size: 15px;
-  /* font-size: 15px;
-  font-weight: 500; */
+  padding-left: 3px;
 }
-
-.lang span {
+.lang2 li {
+  list-style: none;
+  padding-right: 10px;
   font-size: 15px;
   font-weight: 500;
-  padding-top: 30px;
-  padding-left: 5px;
 }
 
 .Frameworks1 {
