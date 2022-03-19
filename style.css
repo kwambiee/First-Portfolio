@@ -185,7 +185,6 @@ p {
 }
 
 .button-type {
-  border: none;
   padding: 10px 15px;
   font-weight: 700;
   font-size: 14px;
@@ -200,10 +199,12 @@ button:hover {
   color: #fff;
   text-decoration: underline;
 }
+
 button:active {
   background-color: #2230d2;
   color: #fff;
 }
+
 .disable {
   border: 1px solid #5e6c84;
   background-color: #fff;
@@ -211,6 +212,7 @@ button:active {
   pointer-events: none;
   cursor: not-allowed;
 }
+
 .Tonic-project {
   background: white;
   border: 1px solid blue;
