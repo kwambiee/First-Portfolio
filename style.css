@@ -194,6 +194,9 @@ p {
   border: 1px solid #7f8cff;
 }
 
+.HTML3 {
+  float: right;
+}
 button:hover {
   background-color: #6070ff;
   color: #fff;
