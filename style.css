@@ -134,7 +134,7 @@ p {
   margin-top: 10px;
 }
 
-.Tonic h1 {
+.Tonic h2 {
   font-size: 36px;
   font-weight: 700;
   color: #172b4d;
@@ -234,8 +234,8 @@ button:active {
   margin-top: 114px;
 }
 
-.about-me h1 {
-  font-size: 50px;
+.about-me h2 {
+  font-size: 40px;
   font-weight: 700;
   color: #172b4d;
   text-align: left;
@@ -355,21 +355,90 @@ button:active {
   font-weight: 500;
 }
 footer {
-  margin: 0;
+  margin: 8rem 0;
   background: #6070ff;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 70px;
+}
+form {
+  padding-bottom: 10px;
 }
 .contact-details {
   background-image: url(./contact-mobile@2x.png);
   background-size: cover;
-  border-top-right-radius: 50px;
-  padding: 50px 0;
-  
+  margin: 10rem 0;
 }
 
-.contact-header{
-  color:#fff;
-  font-weight: 500;
+.contact-header {
+  color: #fff;
+  font-weight: 700;
   font-size: 40px;
   padding-left: 30px;
+  padding-top: 8rem;
+  margin-bottom: 0;
+}
+
+.contact-content {
+  margin: 0 24px;
+}
+
+.contact-content p {
+  color: #ebebff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.contact-name {
+  margin: 0 24px;
+  display: flex;
+}
+input {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 8rem;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  border: 1px;
+}
+.contact-email {
+  margin: 15px 24px;
+  display: flex;
+}
+.contact-message {
+  margin: 0 24px;
+  display: flex;
+}
+textarea {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 8.5rem;
+  padding-bottom: 5rem;
+  border-radius: 10px;
+  color: #b3bac5;
+}
+
+.contact-button {
+  display: flex;
+  margin: 15px 24px;
+}
+
+input:invalid:required {
+  border: 1px dashed red;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+textarea:invalid:required {
+  border: 1px dashed red;
+}
+
+textarea:invalid {
+  border: 1px solid red;
+}
+
+.divide {
+  display: flex;
+  border: 2px solid black;
+  margin: 0 auto;
+  width: 4rem;
 }
