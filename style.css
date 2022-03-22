@@ -354,14 +354,17 @@ button:active {
   color: black;
   font-weight: 500;
 }
+
 footer {
   margin: 8rem 0;
   background: #6070ff;
   border-top-left-radius: 70px;
 }
+
 form {
   padding-bottom: 10px;
 }
+
 .contact-details {
   background-image: url(./contact-mobile@2x.png);
   background-size: cover;
@@ -386,10 +389,12 @@ form {
   font-weight: 400;
   font-size: 20px;
 }
+
 .contact-name {
   margin: 0 24px;
   display: flex;
 }
+
 input {
   padding-top: 1rem;
   padding-left: 1rem;
@@ -398,14 +403,17 @@ input {
   border-radius: 10px;
   border: 1px;
 }
+
 .contact-email {
   margin: 15px 24px;
   display: flex;
 }
+
 .contact-message {
   margin: 0 24px;
   display: flex;
 }
+
 textarea {
   padding-top: 1rem;
   padding-left: 1rem;
@@ -420,20 +428,20 @@ textarea {
   margin: 15px 24px;
 }
 
-input:invalid:required {
-  border: 1px dashed red;
-}
-
 input:invalid {
   border: 1px solid red;
 }
 
-textarea:invalid:required {
+input:invalid:required {
   border: 1px dashed red;
 }
 
 textarea:invalid {
   border: 1px solid red;
+}
+
+textarea:invalid:required {
+  border: 1px dashed red;
 }
 
 .divide {
