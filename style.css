@@ -354,8 +354,12 @@ button:active {
   color: black;
   font-weight: 500;
 }
-
 footer {
+  margin: 0;
   background: #6070ff;
-  background-image: url(./contact-name.png);
+}
+.contact-details {
+  background-image: url(./contact-mobile@2x.png);
+  background-size: cover;
+  padding: 50px 0;
 }
