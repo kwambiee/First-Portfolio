@@ -696,9 +696,11 @@ textarea:invalid:required {
     padding-left: 3px;
     padding-right: 30px;
   }
+
   .Frameworks1 ul {
     margin-right: 6rem;
   }
+
   .Skills ul {
     margin-right: 6rem;
   }
@@ -732,19 +734,23 @@ textarea:invalid:required {
   .contact-content {
     padding-bottom: 10px;
   }
+
   .contact-content p {
     font-size: 20px;
     font-weight: 300;
     text-align: center;
   }
+
   input {
     padding-right: 20rem;
     border-radius: 0;
   }
+
   textarea {
     border-radius: 0;
     padding-right: 20rem;
   }
+
   .submit {
     padding: 1rem 1rem;
     font-size: 17px;
