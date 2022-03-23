@@ -1,27 +1,19 @@
-# First Portfolio Website
+# Mobile and desktop responsive web design
 
 # Built with
 
-1. HTML
-2. CSS-Flexbox
-3. Gitlab
-4. Github
-5. VsCode editor
+1. Languages: HTML &CSS
+2. Frameworks: Gitlab, Github and VsCode editor
 
 # Getting started
 
 To set up the portfolio;
 
 - Create a new repository and open a new branch.
+- Clone the repository to your local directory.
 - set up linters to the branch to ensure no syntax or styling errors.
-- select a template from figma that you would use to build the portfolio.
-- I used one of the templates from figma
-- Use HTML for markup and CSS for styling.
-
-I have built two sections
-
-- Nav
-- Main
+- Add markup and use CSS for styling
+- Use media queries to adjust to a desktop version.
 
 # Setup and Run tests
 
