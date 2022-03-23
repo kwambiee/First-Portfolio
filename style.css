@@ -475,7 +475,7 @@ textarea:invalid:required {
   width: 4rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
   body {
     margin: 0;
   }
@@ -560,6 +560,7 @@ textarea:invalid:required {
 
   .grid-container {
     margin-bottom: 6rem;
+    margin-left: 3rem;
   }
 
   .template-wrapper {
@@ -641,10 +642,6 @@ textarea:invalid:required {
     color: #fff;
   }
 
-  .hidebtn {
-    display: none;
-  }
-
   .action-button {
     display: flex;
   }
@@ -680,6 +677,8 @@ textarea:invalid:required {
 
   .language ul {
     margin-top: 7rem;
+    justify-content: space-between;
+    margin-right: 6rem;
   }
 
   .language p {
@@ -696,6 +695,12 @@ textarea:invalid:required {
     margin: 0 5px;
     padding-left: 3px;
     padding-right: 30px;
+  }
+  .Frameworks1 ul {
+    margin-right: 6rem;
+  }
+  .Skills ul {
+    margin-right: 6rem;
   }
 
   footer {
@@ -726,6 +731,24 @@ textarea:invalid:required {
 
   .contact-content {
     padding-bottom: 10px;
+  }
+  .contact-content p {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
+  input {
+    padding-right: 20rem;
+    border-radius: 0;
+  }
+  textarea {
+    border-radius: 0;
+    padding-right: 20rem;
+  }
+  .submit {
+    padding: 1rem 1rem;
+    font-size: 17px;
+    font-weight: 500;
   }
 
   .divide {
