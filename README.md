@@ -15,7 +15,7 @@ To set up the portfolio;
 - Create a new repository and open a new branch.
 - set up linters to the branch to ensure no syntax or styling errors.
 - select a template from figma that you would use to build the portfolio.
-- I used one of the templates from figma. its named " figma-template" and it is uploaded to my repository.
+- I used one of the templates from figma
 - Use HTML for markup and CSS for styling.
 
 I have built two sections
@@ -40,4 +40,5 @@ Contributions, issues and features are welcome!
 # Acknowledgements
 
 - Hat a tip to anyone whose code was used
+- figma
 - Microverse
