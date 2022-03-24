@@ -48,6 +48,8 @@ a {
   border-bottom-left-radius: 50px;
   margin-bottom: 200px;
   padding-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .flex-name {
@@ -515,7 +517,8 @@ textarea:invalid:required {
   .main-container {
     background: #fff;
     background-image: url(./Header\ bg@2x.png);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
     margin-top: 3rem;
     padding-bottom: 10em;
     border-bottom-left-radius: 7rem;
