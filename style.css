@@ -380,7 +380,8 @@ button:active {
 }
 
 footer {
-  margin: 8rem 0;
+  margin: 0;
+  margin-top: 8rem;
   background: #6070ff;
   border-top-left-radius: 70px;
 }
@@ -392,7 +393,7 @@ form {
 .contact-details {
   background-image: url(./contact-mobile@2x.png);
   background-size: cover;
-  margin: 10rem 0;
+  margin-top: 8rem;
 }
 
 .contact-header {
@@ -740,14 +741,18 @@ textarea:invalid:required {
     text-align: center;
   }
 
-  input {
-    padding-right: 20rem;
+  .form-contact {
+    width: 70%;
+  }
+
+  .form-contact input {
+    width: 100%;
     border-radius: 0;
   }
 
   textarea {
     border-radius: 0;
-    padding-right: 20rem;
+    width: 100%;
   }
 
   .submit {
