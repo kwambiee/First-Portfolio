@@ -1,27 +1,23 @@
-# First Portfolio Website
+# Mobile and desktop responsive web design
 
 # Built with
 
-1. HTML
-2. CSS-Flexbox
-3. Gitlab
-4. Github
-5. VsCode editor
+1. Languages: HTML &CSS
+2. Frameworks: Gitlab, Github and VsCode editor
 
 # Getting started
 
 To set up the portfolio;
 
 - Create a new repository and open a new branch.
+- Clone the repository to your local directory.
 - set up linters to the branch to ensure no syntax or styling errors.
-- select a template from figma that you would use to build the portfolio.
-- I used one of the templates from figma. its named " figma-template" and it is uploaded to my repository.
-- Use HTML for markup and CSS for styling.
+- Add markup and use CSS for styling
+- Use media queries to adjust to a desktop version.
 
-I have built two sections
+# Live Demo Link
 
-- Nav
-- Main
+My Project Live Demo: https://raw.githack.com/kwambiee/First-Portfolio/desktop-version/index.html
 
 # Setup and Run tests
 
@@ -40,4 +36,5 @@ Contributions, issues and features are welcome!
 # Acknowledgements
 
 - Hat a tip to anyone whose code was used
+- figma
 - Microverse
