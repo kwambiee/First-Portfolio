@@ -716,6 +716,14 @@ textarea:invalid:required {
   .resume {
     margin: 15px;
   }
+  .resume1:hover {
+    transform: scale(1.5);
+    background-color: hsl(300, 59%, 81%);
+    color: rgb(33, 170, 136);
+    text-decoration: none;
+    border-radius: 3px;
+    border: 0.2px dotted darkgray;
+  }
 
   .lang2 ul {
     display: block;
