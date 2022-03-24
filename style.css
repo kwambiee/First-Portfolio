@@ -721,7 +721,6 @@ textarea:invalid:required {
     background-image: url(./desktop-contactimage.png);
     display: flex;
     justify-content: center;
-    padding: bottom 0;
   }
 
   form {
