@@ -525,6 +525,7 @@ textarea:invalid:required {
     list-style: none;
     padding-right: 20px;
   }
+
   .nav-menu li:hover {
     transform: translate(20%);
     text-decoration: underline 0.15em rgb(88, 241, 229);
@@ -573,6 +574,7 @@ textarea:invalid:required {
     font-size: 16px;
     font-weight: 500;
   }
+
   .footer li:hover {
     transform: scale(2);
     background: paleturquoise;
@@ -740,6 +742,7 @@ textarea:invalid:required {
   .resume {
     margin: 15px;
   }
+
   .resume1:hover {
     transform: scale(1.5);
     background-color: hsl(300, 59%, 81%);
