@@ -247,6 +247,7 @@ button:active {
   font-size: 14px;
   color: #6070ff;
   border-radius: 10px;
+  transition: all 1s ease-out;
 }
 
 .wrap-footer {
