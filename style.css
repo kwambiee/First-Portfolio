@@ -247,6 +247,7 @@ button:active {
   font-size: 14px;
   color: #6070ff;
   border-radius: 10px;
+  transition: all 1s ease-out;
 }
 
 .wrap-footer {
@@ -491,6 +492,22 @@ textarea:invalid:required {
 
   .logo {
     color: #6070ff;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
   }
 
   .bars {
@@ -508,6 +525,11 @@ textarea:invalid:required {
   .nav-menu li {
     list-style: none;
     padding-right: 20px;
+  }
+
+  .nav-menu li:hover {
+    transform: translate(20%);
+    text-decoration: underline 0.15em rgb(88, 241, 229);
   }
 
   .nav-menu a {
@@ -552,6 +574,11 @@ textarea:invalid:required {
   .flex-connect h3 {
     font-size: 16px;
     font-weight: 500;
+  }
+
+  .footer li:hover {
+    transform: scale(2);
+    background: paleturquoise;
   }
 
   .foot-connect {
@@ -715,6 +742,15 @@ textarea:invalid:required {
 
   .resume {
     margin: 15px;
+  }
+
+  .resume1:hover {
+    transform: scale(1.5);
+    background-color: hsl(300, 59%, 81%);
+    color: rgb(33, 170, 136);
+    text-decoration: none;
+    border-radius: 3px;
+    border: 0.2px dotted darkgray;
   }
 
   .lang2 ul {
