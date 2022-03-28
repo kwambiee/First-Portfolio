@@ -17,7 +17,7 @@ To set up the portfolio;
 
 # Live Demo Link
 
-My Project Live Demo: https://kwambiee.github.io/
+This site was built using[GitHub Pages](https://kwambiee.github.io/).
 
 # Setup and Run tests
 
