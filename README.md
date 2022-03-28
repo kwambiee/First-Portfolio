@@ -17,7 +17,7 @@ To set up the portfolio;
 
 # Live Demo Link
 
-My Project Live Demo: https://raw.githack.com/kwambiee/First-Portfolio/desktop-version/index.html
+My Project Live Demo: https://kwambiee.github.io/
 
 # Setup and Run tests
 
