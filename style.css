@@ -646,6 +646,7 @@ textarea:invalid:required {
   .canopy-list {
     font-weight: 400;
     font-size: 18px;
+    color: rgb(35, 14, 85);
   }
 
   .Tonic-content {
