@@ -448,7 +448,8 @@ textarea {
   padding-right: 8.5rem;
   padding-bottom: 5rem;
   border-radius: 10px;
-  color: #b3bac5;
+  color: black;
+  border: 2px solid red;
 }
 
 .contact-button {
@@ -457,19 +458,19 @@ textarea {
 }
 
 input:invalid {
-  border: 1px solid red;
+  color: red;
 }
 
 input:invalid:required {
-  border: 1px dashed red;
+  border: 2px solid red;
 }
 
 textarea:invalid {
-  border: 1px solid red;
+  color: red;
 }
 
 textarea:invalid:required {
-  border: 1px dashed red;
+  border: 2px solid red;
 }
 
 .divide {
@@ -781,17 +782,38 @@ textarea:invalid:required {
   }
 
   .form-contact {
-    width: 70%;
+    width: 90%;
   }
 
   .form-contact input {
-    width: 100%;
+    width: 80%;
     border-radius: 0;
+  }
+  .name-area {
+    padding-right: 26px;
+  }
+  .name-area:after {
+    content: "*";
+    color: black;
+  }
+  .email-area {
+    padding-right: 10px;
+  }
+  .email-area:after {
+    content: "*";
+    color: black;
   }
 
   textarea {
     border-radius: 0;
     width: 100%;
+  }
+  .message-area {
+    padding-right: 14px;
+  }
+  .message-area:after {
+    content: "*";
+    color: black;
   }
 
   .submit {
