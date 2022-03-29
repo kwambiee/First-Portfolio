@@ -493,7 +493,7 @@ textarea:invalid:required {
 
   .logo {
     color: #6070ff;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 3;
     animation-direction: alternate;
@@ -748,8 +748,8 @@ textarea:invalid:required {
 
   .resume1:hover {
     transform: scale(1.5);
-    background-color: hsl(300, 59%, 81%);
-    color: rgb(33, 170, 136);
+    background-color: hsl(300, 44%, 85%);
+    color: rgb(3, 56, 43);
     text-decoration: none;
     border-radius: 3px;
     border: 0.2px dotted darkgray;
