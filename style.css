@@ -790,17 +790,21 @@ textarea:invalid:required {
     width: 80%;
     border-radius: 0;
   }
+
   .name-area {
     padding-right: 26px;
   }
-  .name-area:after {
+
+  .name-area::after {
     content: "*";
     color: black;
   }
+
   .email-area {
     padding-right: 10px;
   }
-  .email-area:after {
+
+  .email-area::after {
     content: "*";
     color: black;
   }
@@ -809,10 +813,12 @@ textarea:invalid:required {
     border-radius: 0;
     width: 100%;
   }
+
   .message-area {
     padding-right: 14px;
   }
-  .message-area:after {
+
+  .message-area::after {
     content: "*";
     color: black;
   }
