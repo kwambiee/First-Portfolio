@@ -17,7 +17,7 @@ To set up the portfolio;
 
 # Live Demo Link
 
-This site was built using[GitHub Pages](https://kwambiee.github.io/).
+This site was built using[GitHub Pages](https://kwambiee.github.io/First-Portfolio/).
 
 # Setup and Run tests
 
