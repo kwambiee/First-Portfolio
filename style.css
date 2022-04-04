@@ -25,7 +25,6 @@ main {
 }
 
 .bars {
-  display: block;
   list-style: none;
   color: blue;
 }
@@ -33,14 +32,18 @@ main {
   border: none;
   color: blue;
   background: transparent;
+  display: block;
 }
 
 .close-page {
   background: #6070ff;
+  display: none;
 }
 
 .fa-2x {
   color: white;
+  padding: 4rem;
+  float: right;
 }
 
 .menu-list ul {
@@ -407,6 +410,7 @@ footer {
   margin-top: 8rem;
   background: #6070ff;
   border-top-left-radius: 70px;
+  width: 100%;
 }
 
 form {
@@ -416,20 +420,22 @@ form {
 .contact-details {
   background-image: url(./contact-mobile@2x.png);
   background-size: cover;
-  margin-top: 8rem;
+  width: 90%;
 }
 
 .contact-header {
   color: #fff;
   font-weight: 700;
   font-size: 40px;
-  padding-left: 30px;
+  text-align: center;
   padding-top: 8rem;
   margin-bottom: 0;
 }
 
 .contact-content {
-  margin: 0 24px;
+  width: 90%;
+  text-align: center;
+  margin-left: 2rem;
 }
 
 .contact-content p {
@@ -438,35 +444,39 @@ form {
   font-size: 20px;
 }
 
+.form-contact {
+  width: 100%;
+  margin-left: 1rem;
+}
+
 .contact-name {
-  margin: 0 24px;
   display: flex;
+  justify-content: space-around;
+  padding: 1px 2px;
 }
 
 input {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 8rem;
-  padding-bottom: 1rem;
   border-radius: 10px;
   border: 1px;
+  padding: 1px 0;
+  width: 100%;
 }
 
 .contact-email {
-  margin: 15px 24px;
+  margin: 2rem 0;
   display: flex;
+  justify-content: space-around;
 }
 
 .contact-message {
-  margin: 0 24px;
+  margin: 2rem 0;
   display: flex;
+  justify-content: space-around;
 }
 
 textarea {
-  padding-top: 1rem;
-  padding-left: 1rem;
-  padding-right: 8.5rem;
-  padding-bottom: 5rem;
+  width: 100%;
+  padding: 4rem 0;
   border-radius: 10px;
   color: black;
   border: 2px solid red;
@@ -474,7 +484,8 @@ textarea {
 
 .contact-button {
   display: flex;
-  margin: 15px 24px;
+  margin: 2rem 0;
+  justify-content: center;
 }
 
 input:invalid {
