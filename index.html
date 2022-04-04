@@ -20,18 +20,18 @@
             <div>
                 <ul class="bars">
                     <li>
-                        <button onclick="toggle()" ><i class="fa fa-bars fa-3x" aria-hidden="true"></i></button>
+                        <button class="open" ><i class="fa fa-bars fa-3x" aria-hidden="true"></i></button>
                     </li>
-                    <li>
-                        <div class="close-page">
+                    <li class="close-page">
+                        <div >
                             <div class="close">
-                                <button onclick="toggle()" class="close-button"><i class="fa fa-close fa-2x"></i></button>
+                                <button  class="close"><i class="fa fa-close fa-2x"></i></button>
                             </div>
                             <div class="menu-list">
                                 <ul>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li ><a href="#portfolio" class="menu-link">Portfolio</a></li>
+                                    <li><a href="#about" class="menu-link" >About</a></li>
+                                    <li><a href="#contact" class="menu-link">Contact</a></li>
                                 </ul>
                             </div>
                             
@@ -40,13 +40,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="nav-menu">
+            <!-- <div class="nav-menu">
                 <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#portfolio" class="menu-link">Portfolio</a></li>
+                    <li><a href="#about" class="menu-link">About</a></li>
+                    <li><a href="#contact" class="menu-link">Contact</a></li>
                 </ul>
-            </div>
+            </div> -->
         </nav>
     </header>
     
@@ -100,7 +100,7 @@
                         <img class="desk-image" src="./desktop-snap.png" alt="desktop image of my personal reads">
                     </div>
                     <div class="desktop-tonic">
-                        <div class="Tonic">
+                        <div class="Tonic" id="portfolio">
                             <h2>Tonic</h2>
                         </div>
                         <div class="Tonic-list">
@@ -274,7 +274,7 @@
         </section>
         <section class="wrap-footer">
             <div class="wrap-footer-one">
-                <div class="about-me">
+                <div class="about-me" id="about">
                     <div>
                         <h2>About <br> myself</h2>
                     </div>
@@ -362,7 +362,7 @@
                             <p>Frameworks</p>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -374,7 +374,7 @@
                             <p>Skills</p>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-angle-right fa-2x" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </div>
@@ -385,7 +385,7 @@
         </section>   
     </main>
     <footer>
-        <div class="contact-details">
+        <div class="contact-details" id="contact">
             
             <form class="form-details" action="https://formspree.io/f/xjvlodwe" method="post">
                     <h2 class="contact-header">Contact me</h2>
