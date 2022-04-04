@@ -27,7 +27,27 @@ main {
 .bars {
   display: block;
   list-style: none;
-  color: #acb7c3;
+  color: blue;
+}
+.bars button {
+  border: none;
+  color: blue;
+  background: transparent;
+}
+
+.close-page {
+  background: #6070ff;
+}
+
+.fa-2x {
+  color: white;
+}
+
+.menu-list ul {
+  list-style: none;
+}
+.menu-list a {
+  color: white;
 }
 
 .logo {
