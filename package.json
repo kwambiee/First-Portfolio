@@ -9,7 +9,12 @@
     "stylelint-config-standard": "^21.0.0",
     "stylelint": "^13.13.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.25.4"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
