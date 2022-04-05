@@ -21,8 +21,8 @@ main {
   align-items: center;
 }
 
-.blur {
-  backdrop-filter: blur(20px);
+.scrollable-place {
+  height: 1000px;
 }
 
 .nav-menu {
@@ -35,7 +35,7 @@ main {
 
 .bars {
   list-style: none;
-  color: blue;
+  color: #6070ff;
   position: relative;
 }
 
@@ -46,9 +46,18 @@ main {
   display: block;
 }
 
+/* .bars button:active {
+  outline: none;
+  border: none;
+}
+
+.bars button:focus {
+  outline: 0;
+} */
+
 .close-page {
   background: #6070ff;
-  opacity: 0.9;
+  opacity: 0.85;
   width: 100%;
   height: 100vh;
   position: fixed;
@@ -103,14 +112,6 @@ a {
   color: white;
   font-size: 32px;
   font-weight: 600;
-}
-
-.menu-divider {
-  border: 2px solid black;
-  width: 20%;
-  position: fixed;
-  bottom: 0;
-  left: 9rem;
 }
 
 .logo {
