@@ -33,6 +33,7 @@ main {
   color: blue;
   position: relative;
 }
+
 .bars button {
   border: none;
   color: blue;
@@ -53,6 +54,7 @@ main {
   top: 0;
   bottom: 0;
 }
+
 .close {
   display: flex;
   justify-content: end;
@@ -87,6 +89,11 @@ main {
 .menu-list li {
   margin: 1rem 0;
 }
+
+a {
+  text-decoration: none;
+}
+
 .menu-list a {
   color: white;
   font-size: 32px;
@@ -106,10 +113,6 @@ main {
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
-}
-
-a {
-  text-decoration: none;
 }
 
 .main-container {
@@ -590,7 +593,7 @@ textarea:invalid:required {
     }
   }
 
-  .bars {
+  nav button {
     display: none;
   }
 
