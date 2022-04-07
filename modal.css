@@ -195,11 +195,6 @@
     display: flex;
   }
 
-  .grid-container .desktp-cards {
-    display: flex;
-    margin-top: 1rem;
-  }
-
   .grid-container .card-image {
     width: 50%;
     margin: 1rem;
@@ -214,18 +209,26 @@
 
   .img1 {
     background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .img2 {
     background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .img3 {
     background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .img4 {
     background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .desk-conta {
@@ -240,6 +243,14 @@
     font-size: 16px;
     font-weight: 300;
     width: 80%;
+  }
+  .desktp-card {
+    display: flex;
+
+    margin-top: 1rem;
+  }
+  .project-item .desk-card {
+    width: 70%;
   }
 
   .project-item .desk-soc {
