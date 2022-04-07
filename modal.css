@@ -203,6 +203,7 @@
   .item-header {
     margin-top: 1rem;
   }
+
   .grid-container p {
     margin: 0;
   }
@@ -239,16 +240,18 @@
     padding-left: 4rem;
     padding-top: 3rem;
   }
+
   .grid-container .card-templ2 {
     font-size: 16px;
     font-weight: 300;
     width: 80%;
   }
+
   .desktp-card {
     display: flex;
-
     margin-top: 1rem;
   }
+
   .project-item .desk-card {
     width: 70%;
   }
