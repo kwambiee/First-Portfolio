@@ -8,7 +8,7 @@ const projectsArray = [
     imageLink: "images/Snapshoot.png",
     tags: ["HTML", "CSS", "Javascript"],
     role: "Back End Dev",
-    company: "Canopy",
+    company: "CANOPY",
     year: "2015",
     sourceLink: "",
     demoLink: "",
@@ -22,7 +22,7 @@ const projectsArray = [
     imageLink: "images/Snap2.png",
     tags: ["HTML", "CSS", "Javascript"],
     role: "Back End Dev",
-    company: "Canopy",
+    company: "CANOPY",
     year: "2015",
     sourceLink: "",
     demoLink: "",
@@ -36,7 +36,7 @@ const projectsArray = [
     imageLink: "images/Snap3.png",
     tags: ["HTML", "CSS", "Javascript"],
     role: "Back End Dev",
-    company: "Canopy",
+    company: "CANOPY",
     year: "2015",
     sourceLink: "",
     demoLink: "",
@@ -50,7 +50,7 @@ const projectsArray = [
     imageLink: "images/Snapshoot.png",
     tags: ["HTML", "CSS", "Javascript"],
     role: "Back End Dev",
-    company: "Canopy",
+    company: "CANOPY",
     year: "2015",
     sourceLink: "",
     demoLink: "",
@@ -105,7 +105,7 @@ window.onload = function () {
           <div class="item-img img${i + 1}">
             <p>image point</p>
           </div>
-          <div class="desktp-card">
+          <div class="desktp-cards">
             <div class="desk-card">
               <p>${project.modaldesc}</p>
             </div>

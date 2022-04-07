@@ -42,13 +42,9 @@
   align-items: center;
 }
 
-.item-details {
-  padding: 0.5rem 0;
-}
-
 .item-details span {
   padding: 1rem 5px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .item-role::after {
@@ -118,18 +114,26 @@
 @media screen and (max-width: 375px) {
   .img1 {
     background-image: url("images/Snapshoot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .img2 {
     background-image: url("images/Snap2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .img3 {
     background-image: url("images/Snap3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .img4 {
     background-image: url("images/Snap4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 
   .grid-container .desk-object {
@@ -142,21 +146,24 @@
   .grid-container div {
     font-size: 32px;
     font-weight: 600;
-    text-align: center;
+    text-align: start;
+    padding-left: 8px;
+    margin-bottom: 0;
   }
 
   .item-details span {
-    font-size: 16px;
+    font-size: 12px;
     margin: 0;
-    padding: 0 5px;
+    padding-left: 5px;
   }
 
   .grid-container .card-templ2 {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
     width: 80%;
-    text-align: center;
+    text-align: start;
     margin: 0 1rem;
+    padding-left: 0;
   }
 
   .grid-container img {
@@ -164,11 +171,8 @@
     margin: 1rem;
   }
 
-  .grid-container p:first-of-type {
-    font-weight: 600;
-    font-size: 32px;
-    padding: 0 5px;
-    text-align: center;
+  .grid-container p {
+    margin: 0;
   }
 
   .grid-container button {
@@ -179,7 +183,7 @@
     border-radius: 10px;
     background: #fff;
     border: 1px solid #7f8cff;
-    margin: 1rem 3rem;
+    margin: 1rem 1rem;
   }
 }
 
@@ -198,6 +202,14 @@
 
   .grid-container .card-image {
     width: 50%;
+    margin: 1rem;
+  }
+
+  .item-header {
+    margin-top: 1rem;
+  }
+  .grid-container p {
+    margin: 0;
   }
 
   .img1 {
@@ -216,6 +228,20 @@
     background-image: url("images/desktop-snap.png");
   }
 
+  .desk-conta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60%;
+    padding-left: 4rem;
+    padding-top: 3rem;
+  }
+  .grid-container .card-templ2 {
+    font-size: 16px;
+    font-weight: 300;
+    width: 80%;
+  }
+
   .project-item .desk-soc {
     margin-top: 1.8rem;
   }
@@ -229,13 +255,6 @@
     padding-right: 3px;
   }
 
-  .desk-conta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 60%;
-  }
-
   .grid-container div {
     font-size: 32px;
     font-weight: 600;
@@ -246,12 +265,6 @@
     font-size: 16px;
     margin: 0%;
     padding: 0;
-  }
-
-  .grid-container .card-templ2 {
-    font-size: 16px;
-    font-weight: 600;
-    width: 80%;
   }
 
   .card-templ3 {
