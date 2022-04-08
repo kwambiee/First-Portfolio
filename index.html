@@ -219,7 +219,7 @@
     </main>
     <footer id="contact">
         <div class="contact-details">
-            <form class="form-details" id="form" action="https://formspree.io/f/xjvlodwe" method="post">
+            <form class="form-details" id="form">
                 <h2 class="contact-header">Contact me</h2>
                 <div class="contact-content">
                     <p>
@@ -229,11 +229,13 @@
                 <div class="form-contact">
                     <div class="contact-row">
 
-                        <input class="contact-input" type="text" id="username" placeholder="Yeremias" maxlength="30" required />
+                        <input class="contact-input" type="text" id="username"
+                        name="username" placeholder="Yeremias" maxlength="30" required />
                     </div>
                     <div class="contact-row">
 
-                        <input class="contact-input" name="email" type="email" id="email" placeholder="johndoe@gmail.com" required />
+                        <input class="contact-input"
+                        name="email" type="email" id="email" placeholder="johndoe@gmail.com" required />
                     </div>
                     <div class="contact-row">
 
@@ -243,7 +245,7 @@
 
                 <div class="contact-button">
                     <div id="error"></div>
-                    <button type="submit" class="button-type submit">
+                    <button type="submit" class="button-type submit" id="button-insert">
               Get in touch
             </button>
                 </div>

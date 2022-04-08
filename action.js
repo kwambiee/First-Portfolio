@@ -57,7 +57,7 @@ const projectsArray = [
   },
 ];
 
-window.onload = function () {
+window.onload = function loader() {
   const div = document.querySelector('.close-page');
   const open = document.querySelector('.open');
   const close = document.querySelector('.close');
@@ -69,8 +69,33 @@ window.onload = function () {
   const form = document.getElementById('form');
   const emailInput = document.getElementById('email');
   const error = document.getElementById('error');
+  const nameInput = document.getElementById('username');
+  const messageInput = document.getElementById('message');
 
   let active = '';
+  let input = {
+    username: '',
+    email: '',
+    message: '',
+  };
+
+  function checkLocalStorage() {
+    const values = localStorage.getItem('input');
+
+    if (values) {
+      input = JSON.parse(values);
+      nameInput.value = input.username;
+      emailInput.value = input.email;
+      messageInput.value = input.message;
+    } else {
+      localStorage.setItem('input', JSON.stringify(input));
+    }
+  }
+  function updateLocalStorage(e) {
+    input = { ...input, [e.target.name]: e.target.value };
+    const serialized = JSON.stringify(input);
+    localStorage.setItem('input', serialized);
+  }
 
   function disableScroll() {
     // Get the current page scroll position
@@ -78,12 +103,12 @@ window.onload = function () {
     const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
     // if any scroll is attempted, set this to the previous value
-    window.onscroll = function () {
+    window.onscroll = function scroller() {
       window.scrollTo(scrollLeft, scrollTop);
     };
   }
   function enableScroll() {
-    window.onscroll = function () {};
+    window.onscroll = function ebnabler() {};
   }
 
   function addModals() {
@@ -177,6 +202,7 @@ window.onload = function () {
   // Function Call
   addModals();
   addProject();
+  checkLocalStorage();
 
   // Event Listeners
   portfolio.addEventListener('click', (e) => {
@@ -230,4 +256,11 @@ window.onload = function () {
       error.innerText = 'Please Enter Email in Lower Case';
     }
   });
+
+  emailInput.addEventListener('input', updateLocalStorage);
+
+  nameInput.addEventListener('input', updateLocalStorage);
+
+  messageInput.addEventListener('input', updateLocalStorage);
 };
+// action = "https://formspree.io/f/xjvlodwe";
