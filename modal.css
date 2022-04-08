@@ -1,0 +1,304 @@
+.project-item {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 80%;
+  min-height: 50vh;
+  transition: 200ms ease-in-out;
+  border-radius: 10px;
+  z-index: 5;
+  background-color: #fff;
+  padding: 1rem;
+}
+
+#project1.active,
+#project2.active,
+#project3.active,
+#project4.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(236 236 239 / 77%);
+  pointer-events: none;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-details span {
+  padding: 1rem 5px;
+  font-weight: 200;
+}
+
+.item-role::after {
+  padding: 1rem;
+  content: "•";
+}
+
+.item-role::before {
+  content: "•";
+  padding: 1rem;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.close-button {
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background: none;
+  text-decoration: none;
+  color: black !important;
+}
+
+.tags span {
+  padding: 4px 8px;
+  margin: 0 0.5rem;
+  text-transform: lowercase;
+  font-weight: 700;
+  font-size: 12px;
+  color: #6070ff;
+  border-radius: 5px;
+  background-color: rgb(178 183 225 / 29%);
+}
+
+.modal-links {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.modal-links a {
+  margin: 0 0.5rem;
+  font-weight: 700;
+  font-size: 14px;
+  color: #6070ff;
+  border-radius: 6px;
+  background: #fff;
+  border: 1px solid #7f8cff;
+  display: flex;
+  padding: 6px 13px;
+  align-items: center;
+}
+
+.item-img p {
+  visibility: hidden;
+}
+
+.item-img {
+  width: 100%;
+  min-height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+  .img1 {
+    background-image: url("images/Snapshoot.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img2 {
+    background-image: url("images/Snap2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img3 {
+    background-image: url("images/Snap3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img4 {
+    background-image: url("images/Snap4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .grid-container .desk-object {
+    margin: 4rem 1rem;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid silver;
+  }
+
+  .grid-container div {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: start;
+    padding-left: 8px;
+    margin-bottom: 0;
+  }
+
+  .item-details span {
+    font-size: 12px;
+    margin: 0;
+    padding-left: 5px;
+  }
+
+  .grid-container .card-templ2 {
+    font-size: 14px;
+    font-weight: 300;
+    width: 80%;
+    text-align: start;
+    margin: 0 1rem;
+    padding-left: 0;
+  }
+
+  .grid-container img {
+    width: 90%;
+    margin: 1rem;
+  }
+
+  .grid-container p {
+    margin: 0;
+  }
+
+  .grid-container button {
+    padding: 10px 15px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #6070ff;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #7f8cff;
+    margin: 1rem 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .grid-container .desk-object {
+    margin: 8rem 2rem;
+    border: 1px solid silver;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .grid-container .card-image {
+    width: 50%;
+    margin: 1rem;
+  }
+
+  .item-header {
+    margin-top: 1rem;
+  }
+
+  .grid-container p {
+    margin: 0;
+  }
+
+  .img1 {
+    background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img2 {
+    background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img3 {
+    background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .img4 {
+    background-image: url("images/desktop-snap.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .desk-conta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 60%;
+    padding-left: 4rem;
+    padding-top: 3rem;
+  }
+
+  .grid-container .card-templ2 {
+    font-size: 16px;
+    font-weight: 300;
+    width: 80%;
+  }
+
+  .desktp-card {
+    display: flex;
+    margin-top: 1rem;
+  }
+
+  .project-item .desk-card {
+    flex: 2;
+  }
+
+  .project-item .desk-soc {
+    margin-top: 1.8rem;
+    flex: 1;
+  }
+
+  .modal-links span {
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .modal-links img {
+    height: 13px;
+    margin-left: 0.5rem;
+  }
+
+  .modal-links a {
+    display: flex;
+    padding: 6px 13px;
+    align-items: center;
+  }
+
+  .grid-container div {
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .item-details span {
+    font-size: 16px;
+    margin: 0%;
+    padding: 0;
+  }
+
+  .card-templ3 {
+    padding: 8px 1rem;
+    margin: 1rem 0.5rem;
+    text-transform: lowercase;
+    font-weight: 700;
+    font-size: 12px;
+    color: #6070ff;
+    border-radius: 5px;
+    background-color: rgb(178 183 225 / 29%);
+  }
+}

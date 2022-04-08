@@ -205,11 +205,11 @@ p {
 }
 
 .grid-container {
-  margin: 16px;
+  /* margin: 16px;
   display: grid;
   grid-template-rows: auto auto auto auto;
   row-gap: 100px;
-  background: #f7f7f9;
+  background: #f7f7f9; */
 }
 
 .template-wrapper {
@@ -683,8 +683,8 @@ textarea:invalid:required {
   }
 
   .grid-container {
-    margin-bottom: 6rem;
-    margin-left: 3rem;
+    /* margin-bottom: 6rem;
+    margin-left: 3rem; */
   }
 
   .template-wrapper {
