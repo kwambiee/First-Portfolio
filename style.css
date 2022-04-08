@@ -477,7 +477,6 @@ form {
 .contact-details {
   background-image: url(./images/contact-mobile@2x.png);
   background-size: cover;
-  width: 90%;
 }
 
 .contact-header {
@@ -502,14 +501,11 @@ form {
 }
 
 .form-contact {
-  width: 100%;
-  margin-left: 1rem;
 }
 
-.contact-name {
+.contact-row {
   display: flex;
-  justify-content: space-around;
-  padding: 1px 2px;
+  margin: 1rem 0;
 }
 
 input {
@@ -517,6 +513,9 @@ input {
   border: 1px;
   padding: 1px 0;
   width: 100%;
+  color: gray;
+  outline: none;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-email {
@@ -532,33 +531,22 @@ input {
 }
 
 textarea {
-  width: 100%;
-  padding: 4rem 0;
   border-radius: 10px;
-  color: black;
+  color: gray;
   border: 2px solid red;
+  font-family: "Poppins", sans-serif;
 }
 
 .contact-button {
   display: flex;
+  flex-direction: column;
   margin: 2rem 0;
-  justify-content: center;
+  align-items: center;
 }
-
-input:invalid {
-  color: red;
-}
-
-input:invalid:required {
-  border: 2px solid red;
-}
-
-textarea:invalid {
-  color: red;
-}
-
-textarea:invalid:required {
-  border: 2px solid red;
+#error {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .divide {
@@ -875,19 +863,23 @@ textarea:invalid:required {
   }
 
   .form-contact {
-    width: 90%;
+    width: 100%;
   }
 
-  .form-contact input {
-    width: 80%;
-    border-radius: 0;
+  .contact-label {
+    flex: 1;
+    color: white;
+    font-weight: 700;
+  }
+  .contact-input {
+    flex: 2;
+    background: #fff;
+    border: 1px solid #cfd8dc;
+    border-radius: 5px;
+    padding: 0.5rem;
   }
 
-  .name-area {
-    padding-right: 26px;
-  }
-
-  .name-area::after {
+  .contact-label::after {
     content: "*";
     color: black;
   }

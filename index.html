@@ -236,6 +236,7 @@
       <div class="contact-details">
         <form
           class="form-details"
+          id="form"
           action="https://formspree.io/f/xjvlodwe"
           method="post"
         >
@@ -248,35 +249,44 @@
             </p>
           </div>
           <div class="form-contact">
-            <div class="contact-name">
-              <label for="user-name" class="name-area">User Name</label>
+            <div class="contact-row">
+              <label for="username" class="contact-label">User Name</label>
               <input
+                class="contact-input"
                 type="text"
-                id="user-name"
+                id="username"
                 placeholder="Yeremias"
                 maxlength="30"
                 required
               />
             </div>
-            <div class="contact-email">
-              <label for="Email" class="email-area">Email Address</label>
+            <div class="contact-row">
+              <label for="email" class="contact-label">Email Address</label>
               <input
+                class="contact-input"
                 name="email"
                 type="email"
-                id="Email"
+                id="email"
                 placeholder="johndoe@gmail.com"
                 required
               />
             </div>
-            <div class="contact-message">
-              <label for="message" class="message-area">Message</label>
-              <textarea name="message" id="message" maxlength="500" required>
-Enter your message here</textarea
-              >
+            <div class="contact-row">
+              <label for="message" class="contact-label">Message</label>
+              <textarea
+                class="contact-input"
+                name="message"
+                id="message"
+                maxlength="500"
+                placeholder="Enter your message here"
+                rows="5"
+                required
+              ></textarea>
             </div>
           </div>
 
           <div class="contact-button">
+            <div id="error"></div>
             <button type="submit" class="button-type submit">
               Get in touch
             </button>

@@ -1,77 +1,82 @@
 const projectsArray = [
   {
-    title: 'Tonic',
+    title: "Tonic",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     modaldesc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
-    imageLink: 'images/Snapshoot.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
-    role: 'Back End Dev',
-    company: 'CANOPY',
-    year: '2015',
-    sourceLink: '',
-    demoLink: '',
+    imageLink: "images/Snapshoot.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    role: "Back End Dev",
+    company: "CANOPY",
+    year: "2015",
+    sourceLink: "",
+    demoLink: "",
   },
   {
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     modaldesc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
-    imageLink: 'images/Snap2.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
-    role: 'Back End Dev',
-    company: 'CANOPY',
-    year: '2015',
-    sourceLink: '',
-    demoLink: '',
+    imageLink: "images/Snap2.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    role: "Back End Dev",
+    company: "CANOPY",
+    year: "2015",
+    sourceLink: "",
+    demoLink: "",
   },
   {
-    title: 'Tonic',
+    title: "Tonic",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     modaldesc:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s',
-    imageLink: 'images/Snap3.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
-    role: 'Back End Dev',
-    company: 'CANOPY',
-    year: '2015',
-    sourceLink: '',
-    demoLink: '',
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
+    imageLink: "images/Snap3.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    role: "Back End Dev",
+    company: "CANOPY",
+    year: "2015",
+    sourceLink: "",
+    demoLink: "",
   },
   {
-    title: 'Multi-Post Stories',
+    title: "Multi-Post Stories",
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
     modaldesc:
       "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
-    imageLink: 'images/Snapshoot.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
-    role: 'Back End Dev',
-    company: 'CANOPY',
-    year: '2015',
-    sourceLink: '',
-    demoLink: '',
+    imageLink: "images/Snapshoot.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    role: "Back End Dev",
+    company: "CANOPY",
+    year: "2015",
+    sourceLink: "",
+    demoLink: "",
   },
 ];
 
 window.onload = function () {
-  const div = document.querySelector('.close-page');
-  const open = document.querySelector('.open');
-  const close = document.querySelector('.close');
-  const links = document.querySelectorAll('.menu-link');
-  const main = document.querySelector('main');
-  const portfolio = document.getElementById('portfolio');
-  const modals = document.querySelector('.modals');
-  const overlay = document.querySelector('.overlay');
-  let active = '';
+  const div = document.querySelector(".close-page");
+  const open = document.querySelector(".open");
+  const close = document.querySelector(".close");
+  const links = document.querySelectorAll(".menu-link");
+  const main = document.querySelector("main");
+  const portfolio = document.getElementById("portfolio");
+  const modals = document.querySelector(".modals");
+  const overlay = document.querySelector(".overlay");
+  const form = document.getElementById("form");
+  const emailInput = document.getElementById("email");
+  const error = document.getElementById("error");
+
+  let active = "";
 
   function disableScroll() {
     // Get the current page scroll position
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    const scrollLeft =
+      window.pageXOffset || document.documentElement.scrollLeft;
 
     // if any scroll is attempted, set this to the previous value
     window.onscroll = function () {
@@ -83,9 +88,9 @@ window.onload = function () {
   }
 
   function addModals() {
-    let modalitem = '';
+    let modalitem = "";
     projectsArray.forEach((project, i) => {
-      let tags = '';
+      let tags = "";
       project.tags.forEach((tag) => {
         tags += `<span>${tag}</span>`;
       });
@@ -128,9 +133,9 @@ window.onload = function () {
   }
 
   function addProject() {
-    let proj = '';
+    let proj = "";
     projectsArray.forEach((project, i) => {
-      let tags = '';
+      let tags = "";
       project.tags.forEach((tag) => {
         tags += `<span>${tag}</span>`;
       });
@@ -149,8 +154,8 @@ window.onload = function () {
             ${tags}
           </div>
           <button     class="card-templ3"data-modal-target="#project${
-  i + 1
-}">See Project</button>
+            i + 1
+          }">See Project</button>
         </div>
       </div>`;
     });
@@ -159,15 +164,15 @@ window.onload = function () {
 
   function openModal(modal) {
     if (modal == null) return;
-    modal.classList.add('active');
+    modal.classList.add("active");
     active = `#${modal.id}.active`;
-    overlay.classList.add('active');
+    overlay.classList.add("active");
   }
 
   function closeModal(modal) {
     if (modal == null) return;
-    modal.classList.remove('active');
-    overlay.classList.remove('active');
+    modal.classList.remove("active");
+    overlay.classList.remove("active");
   }
 
   // Function Call
@@ -175,46 +180,55 @@ window.onload = function () {
   addProject();
 
   // Event Listeners
-  portfolio.addEventListener('click', (e) => {
-    if (e.target.nodeName !== 'BUTTON') {
+  portfolio.addEventListener("click", (e) => {
+    if (e.target.nodeName !== "BUTTON") {
       return;
     }
     const modal = document.querySelector(e.target.dataset.modalTarget);
     openModal(modal);
   });
 
-  modals.addEventListener('click', (e) => {
-    if (e.target.nodeName !== 'BUTTON') {
+  modals.addEventListener("click", (e) => {
+    if (e.target.nodeName !== "BUTTON") {
       return;
     }
-    const modal = e.target.closest('.project-item');
+    const modal = e.target.closest(".project-item");
     closeModal(modal);
   });
 
-  open.addEventListener('click', () => {
-    div.style.display = 'block';
+  open.addEventListener("click", () => {
+    div.style.display = "block";
     disableScroll();
-    main.style.filter = 'blur(4px)';
+    main.style.filter = "blur(4px)";
   });
 
-  close.addEventListener('click', () => {
-    div.style.display = 'none';
+  close.addEventListener("click", () => {
+    div.style.display = "none";
     enableScroll();
-    main.style.filter = 'none';
+    main.style.filter = "none";
   });
 
   links.forEach((link) => {
-    link.addEventListener('click', () => {
+    link.addEventListener("click", () => {
       enableScroll();
-      div.style.display = 'none';
-      main.style.filter = 'none';
+      div.style.display = "none";
+      main.style.filter = "none";
     });
   });
 
-  overlay.addEventListener('click', () => {
+  overlay.addEventListener("click", () => {
     const modals = document.querySelectorAll(active);
     modals.forEach((modal) => {
       closeModal(modal);
     });
+  });
+
+  form.addEventListener("submit", (e) => {
+    let caps = /[A-Z]/g;
+    let values = emailInput.value;
+    if (values.match(caps)) {
+      e.preventDefault();
+      error.innerText = "Enter Email in Lower Case";
+    }
   });
 };
