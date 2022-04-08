@@ -228,7 +228,7 @@ window.onload = function () {
     let values = emailInput.value;
     if (values.match(caps)) {
       e.preventDefault();
-      error.innerText = "Enter Email in Lower Case";
+      error.innerText = "Please Enter Email in Lower Case";
     }
   });
 };
