@@ -105,7 +105,7 @@ window.onload = function () {
           <div class="item-img img${i + 1}">
             <p>image point</p>
           </div>
-          <div class="desktp-cards">
+          <div class="desktp-card">
             <div class="desk-card">
               <p>${project.modaldesc}</p>
             </div>
@@ -114,12 +114,10 @@ window.onload = function () {
                 ${tags}
               </div>
               <div class="modal-links">
-                <a href="${
-                  project.sourceLink
-                }"><span>See live <img src="./images/live.png"/></span></a>
-                <a href="${
-                  project.demoLink
-                }"><span>See Source<img src="./images/giticon.png"/></span>
+                <a href="${project.sourceLink}"><span>See live</span> 
+                <img src="./images/live.png"/></a>
+                <a href="${project.demoLink}"><span>See Source</span>
+                <img src="./images/giticon.png"/>
                 </a>
               </div>
             </div>

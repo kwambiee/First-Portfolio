@@ -92,14 +92,16 @@
 }
 
 .modal-links a {
-  padding: 10px 15px;
   margin: 0 0.5rem;
   font-weight: 700;
   font-size: 14px;
   color: #6070ff;
-  border-radius: 10px;
+  border-radius: 6px;
   background: #fff;
   border: 1px solid #7f8cff;
+  display: flex;
+  padding: 6px 13px;
+  align-items: center;
 }
 
 .item-img p {
@@ -111,7 +113,7 @@
   min-height: 300px;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
   .img1 {
     background-image: url("images/Snapshoot.png");
     background-repeat: no-repeat;
@@ -187,7 +189,7 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 769px) {
   .grid-container .desk-object {
     margin: 8rem 2rem;
     border: 1px solid silver;
@@ -253,20 +255,28 @@
   }
 
   .project-item .desk-card {
-    width: 70%;
+    flex: 2;
   }
 
   .project-item .desk-soc {
     margin-top: 1.8rem;
+    flex: 1;
+  }
+
+  .modal-links span {
+    font-weight: 400;
+    font-size: 14px;
   }
 
   .modal-links img {
-    height: 40%;
-    padding-top: 10px;
+    height: 13px;
+    margin-left: 0.5rem;
   }
 
   .modal-links a {
-    padding-right: 3px;
+    display: flex;
+    padding: 6px 13px;
+    align-items: center;
   }
 
   .grid-container div {
