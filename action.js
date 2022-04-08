@@ -66,6 +66,10 @@ window.onload = function () {
   const portfolio = document.getElementById('portfolio');
   const modals = document.querySelector('.modals');
   const overlay = document.querySelector('.overlay');
+  const form = document.getElementById('form');
+  const emailInput = document.getElementById('email');
+  const error = document.getElementById('error');
+
   let active = '';
 
   function disableScroll() {
@@ -216,5 +220,14 @@ window.onload = function () {
     modals.forEach((modal) => {
       closeModal(modal);
     });
+  });
+
+  form.addEventListener('submit', (e) => {
+    const caps = /[A-Z]/g;
+    const values = emailInput.value;
+    if (values.match(caps)) {
+      e.preventDefault();
+      error.innerText = 'Please Enter Email in Lower Case';
+    }
   });
 };
