@@ -49,11 +49,11 @@
 
 .item-role::after {
   padding: 1rem;
-  content: "•";
+  content: '•';
 }
 
 .item-role::before {
-  content: "•";
+  content: '•';
   padding: 1rem;
 }
 
@@ -115,25 +115,25 @@
 
 @media screen and (max-width: 768px) {
   .img1 {
-    background-image: url("images/Snapshoot.png");
+    background-image: url('images/Mobile-book.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img2 {
-    background-image: url("images/Snap2.png");
+    background-image: url('images/Snap2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img3 {
-    background-image: url("images/Snap3.png");
+    background-image: url('images/Snap3.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img4 {
-    background-image: url("images/Snap4.png");
+    background-image: url('images/Snap4.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -211,25 +211,25 @@
   }
 
   .img1 {
-    background-image: url("images/desktop-snap.png");
+    background-image: url('images/Books-shot.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img2 {
-    background-image: url("images/desktop-snap.png");
+    background-image: url('images/desktop-snap.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img3 {
-    background-image: url("images/desktop-snap.png");
+    background-image: url('images/desktop-snap.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
 
   .img4 {
-    background-image: url("images/desktop-snap.png");
+    background-image: url('images/desktop-snap.png');
     background-repeat: no-repeat;
     background-size: cover;
   }

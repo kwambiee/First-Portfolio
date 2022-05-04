@@ -1,17 +1,17 @@
 const projectsArray = [
   {
-    title: 'Tonic',
+    title: 'Awesome Books',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'This is a basic website that allows users to add/remove books from a list. This project is built using Vanilla JavaScript, ES6 and Webpack.',
     modaldesc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
-    imageLink: 'images/Snapshoot.png',
+      "The Awesome Books Website has three Navigation bars. The 'Add new' section allows you enter your favorite books. The 'List' section displays your favorite books and allows you also do remove the books. The contact section displays the address and Telephone contact incase you want to reach me.",
+    imageLink: 'images/Books-shot.png',
     tags: ['HTML', 'CSS', 'Javascript'],
-    role: 'Back End Dev',
-    company: 'CANOPY',
-    year: '2015',
-    sourceLink: '',
-    demoLink: '',
+    role: 'Front End Dev',
+    company: 'Microverse',
+    year: '2022',
+    sourceLink: 'https://kwambiee.github.io/ES6-AwesomeBooks/',
+    demoLink: 'https://github.com/kwambiee/ES6-AwesomeBooks',
   },
   {
     title: 'Multi-Post Stories',
@@ -100,7 +100,8 @@ window.onload = function loader() {
   function disableScroll() {
     // Get the current page scroll position
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    const scrollLeft =
+      window.pageXOffset || document.documentElement.scrollLeft;
 
     // if any scroll is attempted, set this to the previous value
     window.onscroll = function scroller() {
@@ -178,8 +179,8 @@ window.onload = function loader() {
             ${tags}
           </div>
           <button     class="card-templ3"data-modal-target="#project${
-  i + 1
-}">See Project</button>
+            i + 1
+          }">See Project</button>
         </div>
       </div>`;
     });
