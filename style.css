@@ -299,7 +299,6 @@ p {
 button:hover {
   background-color: #6070ff;
   color: #fff;
-  text-decoration: underline;
 }
 
 button:active {
