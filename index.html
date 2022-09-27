@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./modal.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -186,6 +187,24 @@
                             <li>CSS</li>
                         </ul>
                     </div>
+                    <div class="lang2 react">
+                        <ul>
+                            <li><img src="./images/react.png" alt="react" /></li>
+                            <li>React</li>
+                        </ul>
+                    </div>
+                    <div class="lang2 ruby">
+                        <ul>
+                            <li><img src="./images/ruby.png" alt="ruby" /></li>
+                            <li>Ruby</li>
+                        </ul>
+                    </div>
+                    <div class="lang2 rails">
+                        <ul>
+                            <li><img src="./images/rails.png" alt="rails" /></li>
+                            <li>Rails</li>
+                        </ul>
+                    </div>
                 </div>
 
                 <div class="Frameworks1">
@@ -193,10 +212,17 @@
                         <li>
                             <p>Frameworks</p>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i
-                ></a>
+                        <li class="frameworks-show" >
+                            <div ><i class="fa fa-angle-right fa-3x" aria-hidden="true" id="frameworks-show"></i
+                ></div>
                         </li>
+                        <div class="frameworks-hide" id="frameworks-hide">
+                            <ul >
+                                <li>React</li>
+                                <li>Vue</li>
+                                <li>Angular</li>
+                            </ul>
+                        </div>
                     </ul>
                 </div>
                 <div class="divider"></div>
@@ -206,9 +232,24 @@
                             <p>Skills</p>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-angle-right fa-3x" aria-hidden="true"></i
-                ></a>
+                            <div><i class="fa fa-angle-right fa-3x" aria-hidden="true" id="skills-show"></i
+                ></div>
                         </li>
+                        <div class="skills-hide" id="skills-hide">
+                            <table class="table">
+                                <tbody>
+                                    <tr><th><strong>Front-End</strong></th>
+                                <td>JavaScript, React, Redux, jQuery, HTML5, CSS3, SASS, Bootstrap, Material UI</td></tr>
+                                <tr><th><strong>Back-End</strong></th>
+                                <td>Ruby, Rails, MySQL,Postgresql</td>
+                                </tr>
+                                <tr><th><strong>Dev Tools</strong></th>
+                                <td>Git, GitHub, Heroku, Netlify, Mobile/Responsive Development, RSpec, TDD, Chrome Dev Tools</td>
+                                </tr>
+                                <tr><th>Professional: </th>
+                                <td>Remote,Pair-Programming, Teamwork, Mentoring</td></tr>
+                                </tbody>
+                            </table>
                     </ul>
                 </div>
                 <div class="divider"></div>
@@ -228,17 +269,14 @@
                 </div>
                 <div class="form-contact">
                     <div class="contact-row">
-
                         <input class="contact-input" type="text" id="username"
                         name="username" placeholder="Yeremias" maxlength="30" required />
                     </div>
                     <div class="contact-row">
-
                         <input class="contact-input"
                         name="email" type="email" id="email" placeholder="johndoe@gmail.com" required />
                     </div>
                     <div class="contact-row">
-
                         <textarea class="txtarea" name="message" id="message" maxlength="500"  placeholder="Enter your message here" required></textarea>
                     </div>
                 </div>
@@ -254,6 +292,9 @@
         </div>
     </footer>
     <script src="./action.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 
 </html>

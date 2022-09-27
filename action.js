@@ -71,6 +71,10 @@ window.onload = function loader() {
   const error = document.getElementById('error');
   const nameInput = document.getElementById('username');
   const messageInput = document.getElementById('message');
+  const hideFramework = document.getElementById('frameworks-hide');
+  const showFramework = document.getElementById('frameworks-show');
+  const hideSkills = document.getElementById('skills-hide');
+  const showSkills = document.getElementById('skills-show');
 
   let active = '';
   let input = {
@@ -257,6 +261,28 @@ window.onload = function loader() {
       error.innerText = 'Please Enter Email in Lower Case';
     }
   });
+
+  showFramework.addEventListener('click', () => {
+    if (hideFramework.style.display === 'none') {
+      hideFramework.style.display = 'block';
+      showFramework.style.display = 'none';
+    } else {
+      hideFramework.style.display = 'none';
+      showFramework.style.display = 'block';
+    }
+  });
+
+  showSkills.addEventListener('click', () => {
+    if (hideSkills.style.display === 'none') {
+      hideSkills.style.display = 'block';
+      showSkills.style.display = 'none';
+    } else {
+      hideSkills.style.display = 'none';
+      showSkills.style.display = 'block';
+    }
+  });
+
+
 
   emailInput.addEventListener('input', updateLocalStorage);
 
