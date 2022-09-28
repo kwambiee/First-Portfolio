@@ -15,10 +15,10 @@ main {
 
 .header {
   background-color: #fff;
-  margin: 24px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
 .scrollable-place {
@@ -45,15 +45,6 @@ main {
   background: transparent;
   display: block;
 }
-
-/* .bars button:active {
-  outline: none;
-  border: none;
-}
-
-.bars button:focus {
-  outline: 0;
-} */
 
 .close-page {
   background: #6070ff;
@@ -121,6 +112,12 @@ a {
   color: #6070ff;
 }
 
+.logo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
 .main-container {
   background-image: url("./images/background-shapes.png");
   background-color: #fff;
@@ -161,6 +158,12 @@ p {
   color: #344563;
 }
 
+.contact-me {
+  font-size: 1rem !important;
+  font-style: italic;
+  font-weight: 600;
+}
+
 .flex-connect {
   margin-left: 24px;
 }
@@ -177,6 +180,10 @@ p {
   font-weight: 500;
   color: #7f8cff;
   margin-left: 24px;
+}
+
+.flex-connect-three h5 {
+  margin: 1rem 0;
 }
 
 .linkedin img {
@@ -326,7 +333,6 @@ button:active {
   font-size: 14px;
   color: #6070ff;
   border-radius: 10px;
-  transition: all 1s ease-out;
 }
 
 .wrap-footer {
@@ -345,6 +351,7 @@ button:active {
   font-weight: 700;
   color: #172b4d;
   text-align: left;
+  margin-bottom: 1.5rem;
 }
 
 .about-me p {
@@ -361,7 +368,7 @@ button:active {
 }
 
 .resume1 {
-  padding: 15px 20px;
+  padding: 0.5rem;
   font-weight: 600;
   font-size: 17px;
   color: #396df2;
@@ -453,24 +460,17 @@ button:active {
 }
 
 .Skills {
-  margin-right: 30px;
+  margin: 0 1rem;
 }
 
 .Skills ul {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: 0;
+  flex-direction: column;
 }
 
 .Skills li {
-  list-style: none;
-}
-
-.Skills p {
-  font-size: 24px;
-  color: black;
-  font-weight: 500;
+  list-style: circle;
+  padding: 0 1rem;
 }
 
 footer {
@@ -590,29 +590,16 @@ textarea {
   width: 292px;
   margin: 0 32px;
 }
-.frameworks-hide {
-  display: none;
+
+.Skills .card {
+  margin-top: 1rem;
+  margin-bottom: 10px;
 }
 
-.frameworks-hide ul {
+.Skills .card-header {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
-
-}
-
-.frameworks-hide li{
-  list-style-type: circle;
-}
-
-.skills-hide {
-  display: none;
-}
-
-.skills-hide ul {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem 1rem !important;
 }
 
 @media screen and (min-width: 992px) {
@@ -631,7 +618,11 @@ textarea {
   .header {
     display: flex;
     justify-content: space-between;
-    margin: 10px 7rem;
+    padding: 10px 7rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
   }
 
   .logo {
@@ -664,12 +655,18 @@ textarea {
 
   .nav-menu li {
     list-style: none;
-    padding-right: 20px;
+    font-weight: 600;
+    border: 2px solid #344563;
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .Skills li {
+    list-style: none;
   }
 
   .nav-menu li:hover {
-    transform: translate(20%);
-    text-decoration: underline 0.15em rgb(88, 241, 229);
+    font-size: 1.3rem;
   }
 
   .nav-menu a {
@@ -716,17 +713,13 @@ textarea {
     font-weight: 500;
   }
 
-  .footer li:hover {
-    transform: scale(2);
-    background: paleturquoise;
-  }
-
   .foot-connect {
     margin-left: 6em;
   }
 
   .foot-connect ul {
     max-width: 20%;
+    margin-left: 1rem;
   }
 
   .template-wrapper {
@@ -801,7 +794,6 @@ textarea {
   .disable:hover {
     background-color: #6070ff;
     color: #fff;
-    text-decoration: underline;
   }
 
   .disable:active {
@@ -863,18 +855,11 @@ textarea {
     padding-left: 3px;
     padding-right: 30px;
   }
-  .lang2 img{
+
+  .lang2 img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-  }
-
-  .Frameworks1 ul {
-    margin-right: 6rem;
-  }
-
-  .Skills ul {
-    margin-right: 6rem;
   }
 
   footer {
@@ -883,15 +868,6 @@ textarea {
 
   .resume {
     margin: 15px;
-  }
-
-  .resume1:hover {
-    transform: scale(1.5);
-    background-color: hsl(300, 44%, 85%);
-    color: rgb(3, 56, 43);
-    text-decoration: none;
-    border-radius: 3px;
-    border: 0.2px dotted darkgray;
   }
 
   .lang2 ul {
@@ -936,7 +912,7 @@ textarea {
     background: #fff;
     border: 1px solid #cfd8dc;
     border-radius: 5px;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
     width: 327px;
   }
 
@@ -980,5 +956,10 @@ textarea {
 
   .divide {
     display: none;
+  }
+
+  .Skills ul {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }

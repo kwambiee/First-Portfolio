@@ -1,59 +1,59 @@
 const projectsArray = [
   {
-    title: "Awesome Books",
+    title: 'Awesome Books',
     description:
-      "This is a basic website that allows users to add/remove books from a list. This project is built using Vanilla JavaScript, ES6 and Webpack.",
+      'This is a basic website that allows users to add/remove books from a list. This project is built using Vanilla JavaScript, ES6 and Webpack.',
     modaldesc:
       "The App has the 'Add new' section that allows you enter your favorite books,the 'List' section that displays your favorite books and allows you to remove books and the contact section that displays address and telephone contact.",
-    imageLink: "images/awesome_books.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    role: "Front End Dev",
-    company: "MICROVERSE",
-    year: "2022",
-    sourceLink: "https://github.com/kwambiee/ES6-AwesomeBooks",
-    demoLink: "https://kwambiee.github.io/ES6-AwesomeBooks/",
+    imageLink: 'images/awesome_books.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    role: 'Front End Dev',
+    company: 'MICROVERSE',
+    year: '2022',
+    sourceLink: 'https://github.com/kwambiee/ES6-AwesomeBooks',
+    demoLink: 'https://kwambiee.github.io/ES6-AwesomeBooks/',
   },
   {
-    title: "Beauty Parlour",
+    title: 'Beauty Parlour',
     description:
-      "This app extracts data Makeup API and displays a list of different brands, products contained in the brand and product details.",
+      'This app extracts data Makeup API and displays a list of different brands, products contained in the brand and product details.',
     modaldesc:
-      "This application displays all makeup brands, products contained in the brand and product details. It also allows you to view the price and ingredients of the product.",
-    imageLink: "images/makeup.png",
-    tags: ["React", "CSS", "Javascript"],
-    role: "Front End Dev",
-    company: "MICROVERSE",
-    year: "2022",
-    sourceLink: "https://github.com/kwambiee/beauty-parlour",
-    demoLink: "https://www.loom.com/share/2c20791a4710438d92b4ba6e8e28711b",
+      'This application displays all makeup brands, products contained in the brand and product details. It also allows you to view the price and ingredients of the product.',
+    imageLink: 'images/makeup.png',
+    tags: ['React', 'CSS', 'Javascript'],
+    role: 'Front End Dev',
+    company: 'MICROVERSE',
+    year: '2022',
+    sourceLink: 'https://github.com/kwambiee/beauty-parlour',
+    demoLink: 'https://www.loom.com/share/2c20791a4710438d92b4ba6e8e28711b',
   },
   {
-    title: "Tonic",
+    title: 'Tonic',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required.",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     modaldesc:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s",
-    imageLink: "images/Snap3.png",
-    tags: ["HTML", "CSS", "Javascript"],
-    role: "Back End Dev",
-    company: "CANOPY",
-    year: "2015",
-    sourceLink: "",
-    demoLink: "",
+      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s',
+    imageLink: 'images/Snap3.png',
+    tags: ['HTML', 'CSS', 'Javascript'],
+    role: 'Back End Dev',
+    company: 'CANOPY',
+    year: '2015',
+    sourceLink: '',
+    demoLink: '',
   },
   {
-    title: "Budget App",
+    title: 'Budget App',
     description:
-      "A Ruby project on building a budget application to track your expenditure.",
+      'A Ruby project on building a budget application to track your expenditure.',
     modaldesc:
-      "This is a Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
-    imageLink: "images/desk-budget.png",
-    tags: ["Ruby", "Rails", "CSS"],
-    role: "Back End Dev",
-    company: "MICROVERSE",
-    year: "2022",
-    sourceLink: "https://github.com/kwambiee/budget-app",
-    demoLink: "https://kwambiee-budget.herokuapp.com/",
+      'This is a Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+    imageLink: 'images/desk-budget.png',
+    tags: ['Ruby', 'Rails', 'CSS'],
+    role: 'Back End Dev',
+    company: 'MICROVERSE',
+    year: '2022',
+    sourceLink: 'https://github.com/kwambiee/budget-app',
+    demoLink: 'https://kwambiee-budget.herokuapp.com/',
   },
 ];
 
@@ -71,10 +71,10 @@ window.onload = function loader() {
   const error = document.getElementById('error');
   const nameInput = document.getElementById('username');
   const messageInput = document.getElementById('message');
-  const hideFramework = document.getElementById('frameworks-hide');
-  const showFramework = document.getElementById('frameworks-show');
-  const hideSkills = document.getElementById('skills-hide');
-  const showSkills = document.getElementById('skills-show');
+  // const hideFramework = document.getElementById('frameworks-hide');
+  // const showFramework = document.getElementById('frameworks-show');
+  // const hideSkills = document.getElementById('skills-hide');
+  // const showSkills = document.getElementById('skills-show');
 
   let active = '';
   let input = {
@@ -104,8 +104,7 @@ window.onload = function loader() {
   function disableScroll() {
     // Get the current page scroll position
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollLeft =
-      window.pageXOffset || document.documentElement.scrollLeft;
+    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
 
     // if any scroll is attempted, set this to the previous value
     window.onscroll = function scroller() {
@@ -183,8 +182,8 @@ window.onload = function loader() {
             ${tags}
           </div>
           <button     class="card-templ3"data-modal-target="#project${
-            i + 1
-          }">See Project</button>
+  i + 1
+}">See Project</button>
         </div>
       </div>`;
     });
@@ -262,27 +261,25 @@ window.onload = function loader() {
     }
   });
 
-  showFramework.addEventListener('click', () => {
-    if (hideFramework.style.display === 'none') {
-      hideFramework.style.display = 'block';
-      showFramework.style.display = 'none';
-    } else {
-      hideFramework.style.display = 'none';
-      showFramework.style.display = 'block';
-    }
-  });
+  // showFramework.addEventListener('click', () => {
+  //   if (hideFramework.style.display === 'none') {
+  //     hideFramework.style.display = 'block';
+  //     showFramework.style.display = 'none';
+  //   } else {
+  //     hideFramework.style.display = 'none';
+  //     showFramework.style.display = 'block';
+  //   }
+  // });
 
-  showSkills.addEventListener('click', () => {
-    if (hideSkills.style.display === 'none') {
-      hideSkills.style.display = 'block';
-      showSkills.style.display = 'none';
-    } else {
-      hideSkills.style.display = 'none';
-      showSkills.style.display = 'block';
-    }
-  });
-
-
+  // showSkills.addEventListener('click', () => {
+  //   if (hideSkills.style.display === 'none') {
+  //     hideSkills.style.display = 'block';
+  //     showSkills.style.display = 'none';
+  //   } else {
+  //     hideSkills.style.display = 'none';
+  //     showSkills.style.display = 'block';
+  //   }
+  // });
 
   emailInput.addEventListener('input', updateLocalStorage);
 

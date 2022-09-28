@@ -113,7 +113,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .img1 {
     background-image: url('images/Mobile-book.png');
     background-repeat: no-repeat;
@@ -127,7 +126,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    height:350px;
+    height: 350px;
   }
 
   .img3 {
@@ -155,13 +154,14 @@
     font-size: 32px;
     font-weight: 600;
   }
-  .card-tempm{
+
+  .card-tempm {
     text-align: center;
     font-weight: bold;
     font-size: 32px;
   }
 
-  .item-details{
+  .item-details {
     text-align: start;
     margin-left: 2.5rem;
   }
@@ -172,7 +172,7 @@
     padding-left: 5px;
   }
 
-  .card-templ{
+  .card-templ {
     margin-left: 2rem;
   }
 
@@ -250,7 +250,6 @@
     background-image: url('images/desk-budget.png');
     background-repeat: no-repeat;
     background-size: cover;
-
   }
 
   .desk-conta {
@@ -262,7 +261,7 @@
     padding-top: 3rem;
   }
 
-  .card-tempm{
+  .card-tempm {
     text-align: start;
     font-weight: bold;
     font-size: 32px;
@@ -270,7 +269,7 @@
 
   .grid-container .card-templ2 {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 500;
     width: 80%;
   }
 
@@ -317,13 +316,13 @@
   }
 
   .card-templ3 {
-    padding: 8px 1rem;
+    padding: 0.5rem;
     margin: 1rem 0.5rem;
-    text-transform: lowercase;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 1rem;
     color: #6070ff;
     border-radius: 5px;
-    background-color: rgb(178 183 225 / 29%);
+    background-color: #fff;
+    border: 1px solid blue;
   }
 }
