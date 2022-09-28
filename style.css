@@ -602,6 +602,11 @@ textarea {
   padding: 0.5rem 1rem !important;
 }
 
+.resume a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 @media screen and (min-width: 992px) {
   nav button {
     display: none;
