@@ -26,8 +26,8 @@ To set up the portfolio;
 
 # Author
 
-- [Github]: https://www.github.com/kwambiee
-- [LinkedIn]: https://www.linkedin.com/in/joy-kwamboka
+- [Github](https://www.github.com/kwambiee)
+- [LinkedIn](https://www.linkedin.com/in/joy-kwamboka)
 
 # Contributing
 
