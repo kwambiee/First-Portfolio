@@ -113,8 +113,8 @@ a {
 }
 
 .logo img {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
 }
 
@@ -623,7 +623,7 @@ textarea {
   .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 7rem;
+    padding: 0 7rem;
     position: fixed;
     width: 100%;
     z-index: 1;

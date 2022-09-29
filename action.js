@@ -28,18 +28,18 @@ const projectsArray = [
     demoLink: 'https://www.loom.com/share/2c20791a4710438d92b4ba6e8e28711b',
   },
   {
-    title: 'Tonic',
+    title: 'Yatch House',
     description:
-      'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+      'This is an application to book houses for rent.The user can choose the preferrable house and reserve it for a specific period of time.',
     modaldesc:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s. Lorem Ipsum han printer took a galley of type and scrambled it 1960s',
-    imageLink: 'images/Snap3.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
+      'An application to book houses for rent like airbnb. The particularity is that the guests will live with their host to discover the local culture and customs. The user will be able to choose a house according to his preferences and book a period during which he will live with his guest.',
+    imageLink: 'images/desktop-house.png',
+    tags: ['Ruby', 'Rails', 'CSS'],
     role: 'Back End Dev',
-    company: 'CANOPY',
-    year: '2015',
-    sourceLink: '',
-    demoLink: '',
+    company: 'Microverse',
+    year: '2022',
+    sourceLink: 'https://github.com/kwambiee/yatch-house-front-end',
+    demoLink: 'https://yatch-house.netlify.app/',
   },
   {
     title: 'Budget App',
