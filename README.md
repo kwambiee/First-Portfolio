@@ -17,21 +17,21 @@ To set up the portfolio;
 
 # Live Demo Link
 
-[Demo link](https://kwambiee.github.io/First-Portfolio/).
+- [Demo link](https://kwambiee.github.io/First-Portfolio/).
 
 # Setup and Run tests
 
-[To set up linters: Follow](https://github.com/microverseinc/linters-config/tree/master/html-css)
-Once configured, run test as provided in the set up
+- [To set up linters: Follow](https://github.com/microverseinc/linters-config/tree/master/html-css)
+- Once configured, run test as provided in the set up
 
 # Author
 
-[Github]: https://www.github.com/kwambiee
-[LinkedIn]: https://www.linkedin.com/in/joy-kwamboka
+- [Github]: https://www.github.com/kwambiee
+- [LinkedIn]: https://www.linkedin.com/in/joy-kwamboka
 
 # Contributing
 
-Contributions, issues and features are welcome!
+- Contributions, issues and features are welcome!
 
 # Acknowledgements
 
