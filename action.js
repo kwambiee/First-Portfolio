@@ -270,8 +270,6 @@ window.onload = function loader() {
     prevScrollpos = currentScrollPos;
   };
 
-
-
   emailInput.addEventListener('input', updateLocalStorage);
 
   nameInput.addEventListener('input', updateLocalStorage);

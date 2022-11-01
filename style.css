@@ -21,7 +21,6 @@ main {
   box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
 }
 
-
 .scrollable-place {
   height: 1000px;
 }
@@ -631,7 +630,7 @@ textarea {
     top: 0;
   }
 
-  .scrollDown .header{
+  .scrollDown .header {
     transform: translate3d(0, -100%, 0);
   }
 
