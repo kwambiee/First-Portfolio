@@ -71,10 +71,7 @@ window.onload = function loader() {
   const error = document.getElementById('error');
   const nameInput = document.getElementById('username');
   const messageInput = document.getElementById('message');
-  // const hideFramework = document.getElementById('frameworks-hide');
-  // const showFramework = document.getElementById('frameworks-show');
-  // const hideSkills = document.getElementById('skills-hide');
-  // const showSkills = document.getElementById('skills-show');
+  const header = document.querySelector('.header');
 
   let active = '';
   let input = {
@@ -261,25 +258,19 @@ window.onload = function loader() {
     }
   });
 
-  // showFramework.addEventListener('click', () => {
-  //   if (hideFramework.style.display === 'none') {
-  //     hideFramework.style.display = 'block';
-  //     showFramework.style.display = 'none';
-  //   } else {
-  //     hideFramework.style.display = 'none';
-  //     showFramework.style.display = 'block';
-  //   }
-  // });
+  // Header to disappear on scrolldown and reappear on scrollup
+  let prevScrollpos = window.pageYOffset;
+  window.onscroll = function () {
+    const currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      header.style.top = '0';
+    } else {
+      header.style.top = '-100px';
+    }
+    prevScrollpos = currentScrollPos;
+  };
 
-  // showSkills.addEventListener('click', () => {
-  //   if (hideSkills.style.display === 'none') {
-  //     hideSkills.style.display = 'block';
-  //     showSkills.style.display = 'none';
-  //   } else {
-  //     hideSkills.style.display = 'none';
-  //     showSkills.style.display = 'block';
-  //   }
-  // });
+
 
   emailInput.addEventListener('input', updateLocalStorage);
 
