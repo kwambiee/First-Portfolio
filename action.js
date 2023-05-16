@@ -5,7 +5,7 @@ const projectsArray = [
       "The restaurant application majorly displays different categories of meals. The homepage shows a list of meals you can like. The popup window shows more data on the selected meal and the user can comment on it too.",
     modaldesc:
       "The interface displays a set of meal categories all derived from Meals DB Api, number of likes for the meal which is derived from the Involvement Api and images of the selected meal category",
-    imageLink: "images/homepage.png",
+    imageLink: "images/popup.png",
     tags: ["HTML", "CSS", "Javascript"],
     role: "Front End Dev",
     company: "MICROVERSE",
