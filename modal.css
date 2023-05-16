@@ -114,7 +114,7 @@
 
 @media screen and (max-width: 768px) {
   .img1 {
-    background-image: url('images/Mobile-book.png');
+    background-image: url('images/mobile-popup.png');
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;

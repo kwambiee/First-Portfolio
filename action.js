@@ -1,87 +1,88 @@
 const projectsArray = [
   {
-    title: 'Awesome Books',
+    title: "My Restaurant",
     description:
-      'This is a basic website that allows users to add/remove books from a list. This project is built using Vanilla JavaScript, ES6 and Webpack.',
+      "The restaurant application majorly displays different categories of meals. The homepage shows a list of meals you can like. The popup window shows more data on the selected meal and the user can comment on it too.",
     modaldesc:
-      "The App has the 'Add new' section that allows you enter your favorite books,the 'List' section that displays your favorite books and allows you to remove books and the contact section that displays address and telephone contact.",
-    imageLink: 'images/awesome_books.png',
-    tags: ['HTML', 'CSS', 'Javascript'],
-    role: 'Front End Dev',
-    company: 'MICROVERSE',
-    year: '2022',
-    sourceLink: 'https://github.com/kwambiee/ES6-AwesomeBooks',
-    demoLink: 'https://kwambiee.github.io/ES6-AwesomeBooks/',
+      "The interface displays a set of meal categories all derived from Meals DB Api, number of likes for the meal which is derived from the Involvement Api and images of the selected meal category",
+    imageLink: "images/homepage.png",
+    tags: ["HTML", "CSS", "Javascript"],
+    role: "Front End Dev",
+    company: "MICROVERSE",
+    year: "2022",
+    sourceLink: "https://ichala.github.io/Javascript-Capstone/",
+    demoLink:
+      "https://drive.google.com/file/d/1gdzn9vXAoL6oqAK1gyBKHHbU7T90774y/view?usp=sharing",
   },
   {
-    title: 'Beauty Parlour',
+    title: "Beauty Parlour",
     description:
-      'This app extracts data Makeup API and displays a list of different brands, products contained in the brand and product details.',
+      "This app extracts data Makeup API and displays a list of different brands, products contained in the brand and product details.",
     modaldesc:
-      'This application displays all makeup brands, products contained in the brand and product details. It also allows you to view the price and ingredients of the product.',
-    imageLink: 'images/makeup.png',
-    tags: ['React', 'CSS', 'Javascript'],
-    role: 'Front End Dev',
-    company: 'MICROVERSE',
-    year: '2022',
-    sourceLink: 'https://github.com/kwambiee/beauty-parlour',
-    demoLink: 'https://www.loom.com/share/2c20791a4710438d92b4ba6e8e28711b',
+      "This application displays all makeup brands, products contained in the brand and product details. It also allows you to view the price and ingredients of the product.",
+    imageLink: "images/makeup.png",
+    tags: ["React", "CSS", "Javascript"],
+    role: "Front End Dev",
+    company: "MICROVERSE",
+    year: "2022",
+    sourceLink: "https://github.com/kwambiee/beauty-parlour",
+    demoLink: "https://www.loom.com/share/2c20791a4710438d92b4ba6e8e28711b",
   },
   {
-    title: 'Yatch House',
+    title: "Yatch House",
     description:
-      'This is an application to book houses for rent.The user can choose the preferrable house and reserve it for a specific period of time.',
+      "This is an application to book houses for rent.The user can choose the preferrable house and reserve it for a specific period of time.",
     modaldesc:
-      'An application to book houses for rent like airbnb. The particularity is that the guests will live with their host to discover the local culture and customs. The user will be able to choose a house according to his preferences and book a period during which he will live with his guest.',
-    imageLink: 'images/desktop-house.png',
-    tags: ['Ruby', 'Rails', 'CSS'],
-    role: 'Back End Dev',
-    company: 'Microverse',
-    year: '2022',
-    sourceLink: 'https://github.com/kwambiee/yatch-house-front-end',
-    demoLink: 'https://yatch-house.netlify.app/',
+      "An application to book houses for rent like airbnb. The particularity is that the guests will live with their host to discover the local culture and customs. The user will be able to choose a house according to his preferences and book a period during which he will live with his guest.",
+    imageLink: "images/desktop-house.png",
+    tags: ["Ruby", "Rails", "CSS"],
+    role: "Back End Dev",
+    company: "Microverse",
+    year: "2022",
+    sourceLink: "https://github.com/kwambiee/yatch-house-front-end",
+    demoLink: "https://yatch-house.netlify.app/",
   },
   {
-    title: 'Budget App',
+    title: "Budget App",
     description:
-      'A Ruby project on building a budget application to track your expenditure.',
+      "A Ruby project on building a budget application to track your expenditure.",
     modaldesc:
-      'This is a Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-    imageLink: 'images/desk-budget.png',
-    tags: ['Ruby', 'Rails', 'CSS'],
-    role: 'Back End Dev',
-    company: 'MICROVERSE',
-    year: '2022',
-    sourceLink: 'https://github.com/kwambiee/budget-app',
-    demoLink: 'https://kwambiee-budget.herokuapp.com/',
+      "This is a Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.",
+    imageLink: "images/desk-budget.png",
+    tags: ["Ruby", "Rails", "CSS"],
+    role: "Back End Dev",
+    company: "MICROVERSE",
+    year: "2022",
+    sourceLink: "https://github.com/kwambiee/budget-app",
+    demoLink: "https://kwambiee-budget.herokuapp.com/",
   },
 ];
 
 window.onload = function loader() {
-  const div = document.querySelector('.close-page');
-  const open = document.querySelector('.open');
-  const close = document.querySelector('.close');
-  const links = document.querySelectorAll('.menu-link');
-  const main = document.querySelector('main');
-  const portfolio = document.getElementById('portfolio');
-  const modals = document.querySelector('.modals');
-  const overlay = document.querySelector('.overlay');
-  const form = document.getElementById('form');
-  const emailInput = document.getElementById('email');
-  const error = document.getElementById('error');
-  const nameInput = document.getElementById('username');
-  const messageInput = document.getElementById('message');
-  const header = document.querySelector('.header');
+  const div = document.querySelector(".close-page");
+  const open = document.querySelector(".open");
+  const close = document.querySelector(".close");
+  const links = document.querySelectorAll(".menu-link");
+  const main = document.querySelector("main");
+  const portfolio = document.getElementById("portfolio");
+  const modals = document.querySelector(".modals");
+  const overlay = document.querySelector(".overlay");
+  const form = document.getElementById("form");
+  const emailInput = document.getElementById("email");
+  const error = document.getElementById("error");
+  const nameInput = document.getElementById("username");
+  const messageInput = document.getElementById("message");
+  const header = document.querySelector(".header");
 
-  let active = '';
+  let active = "";
   let input = {
-    username: '',
-    email: '',
-    message: '',
+    username: "",
+    email: "",
+    message: "",
   };
 
   function checkLocalStorage() {
-    const values = localStorage.getItem('input');
+    const values = localStorage.getItem("input");
 
     if (values) {
       input = JSON.parse(values);
@@ -89,19 +90,20 @@ window.onload = function loader() {
       emailInput.value = input.email;
       messageInput.value = input.message;
     } else {
-      localStorage.setItem('input', JSON.stringify(input));
+      localStorage.setItem("input", JSON.stringify(input));
     }
   }
   function updateLocalStorage(e) {
     input = { ...input, [e.target.name]: e.target.value };
     const serialized = JSON.stringify(input);
-    localStorage.setItem('input', serialized);
+    localStorage.setItem("input", serialized);
   }
 
   function disableScroll() {
     // Get the current page scroll position
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-    const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft;
+    const scrollLeft =
+      window.pageXOffset || document.documentElement.scrollLeft;
 
     // if any scroll is attempted, set this to the previous value
     window.onscroll = function scroller() {
@@ -113,9 +115,9 @@ window.onload = function loader() {
   }
 
   function addModals() {
-    let modalitem = '';
+    let modalitem = "";
     projectsArray.forEach((project, i) => {
-      let tags = '';
+      let tags = "";
       project.tags.forEach((tag) => {
         tags += `<span>${tag}</span>`;
       });
@@ -158,9 +160,9 @@ window.onload = function loader() {
   }
 
   function addProject() {
-    let proj = '';
+    let proj = "";
     projectsArray.forEach((project, i) => {
-      let tags = '';
+      let tags = "";
       project.tags.forEach((tag) => {
         tags += `<span>${tag}</span>`;
       });
@@ -179,8 +181,8 @@ window.onload = function loader() {
             ${tags}
           </div>
           <button     class="card-templ3"data-modal-target="#project${
-  i + 1
-}">See Project</button>
+            i + 1
+          }">See Project</button>
         </div>
       </div>`;
     });
@@ -189,15 +191,15 @@ window.onload = function loader() {
 
   function openModal(modal) {
     if (modal == null) return;
-    modal.classList.add('active');
+    modal.classList.add("active");
     active = `#${modal.id}.active`;
-    overlay.classList.add('active');
+    overlay.classList.add("active");
   }
 
   function closeModal(modal) {
     if (modal == null) return;
-    modal.classList.remove('active');
-    overlay.classList.remove('active');
+    modal.classList.remove("active");
+    overlay.classList.remove("active");
   }
 
   // Function Call
@@ -206,55 +208,55 @@ window.onload = function loader() {
   checkLocalStorage();
 
   // Event Listeners
-  portfolio.addEventListener('click', (e) => {
-    if (e.target.nodeName !== 'BUTTON') {
+  portfolio.addEventListener("click", (e) => {
+    if (e.target.nodeName !== "BUTTON") {
       return;
     }
     const modal = document.querySelector(e.target.dataset.modalTarget);
     openModal(modal);
   });
 
-  modals.addEventListener('click', (e) => {
-    if (e.target.nodeName !== 'BUTTON') {
+  modals.addEventListener("click", (e) => {
+    if (e.target.nodeName !== "BUTTON") {
       return;
     }
-    const modal = e.target.closest('.project-item');
+    const modal = e.target.closest(".project-item");
     closeModal(modal);
   });
 
-  open.addEventListener('click', () => {
-    div.style.display = 'block';
+  open.addEventListener("click", () => {
+    div.style.display = "block";
     disableScroll();
-    main.style.filter = 'blur(4px)';
+    main.style.filter = "blur(4px)";
   });
 
-  close.addEventListener('click', () => {
-    div.style.display = 'none';
+  close.addEventListener("click", () => {
+    div.style.display = "none";
     enableScroll();
-    main.style.filter = 'none';
+    main.style.filter = "none";
   });
 
   links.forEach((link) => {
-    link.addEventListener('click', () => {
+    link.addEventListener("click", () => {
       enableScroll();
-      div.style.display = 'none';
-      main.style.filter = 'none';
+      div.style.display = "none";
+      main.style.filter = "none";
     });
   });
 
-  overlay.addEventListener('click', () => {
+  overlay.addEventListener("click", () => {
     const modals = document.querySelectorAll(active);
     modals.forEach((modal) => {
       closeModal(modal);
     });
   });
 
-  form.addEventListener('submit', (e) => {
+  form.addEventListener("submit", (e) => {
     const caps = /[A-Z]/g;
     const values = emailInput.value;
     if (values.match(caps)) {
       e.preventDefault();
-      error.innerText = 'Please Enter Email in Lower Case';
+      error.innerText = "Please Enter Email in Lower Case";
     }
   });
 
@@ -263,17 +265,17 @@ window.onload = function loader() {
   window.onscroll = function () {
     const currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-      header.style.top = '0';
+      header.style.top = "0";
     } else {
-      header.style.top = '-100px';
+      header.style.top = "-100px";
     }
     prevScrollpos = currentScrollPos;
   };
 
-  emailInput.addEventListener('input', updateLocalStorage);
+  emailInput.addEventListener("input", updateLocalStorage);
 
-  nameInput.addEventListener('input', updateLocalStorage);
+  nameInput.addEventListener("input", updateLocalStorage);
 
-  messageInput.addEventListener('input', updateLocalStorage);
+  messageInput.addEventListener("input", updateLocalStorage);
 };
 // action = "https://formspree.io/f/xjvlodwe";
